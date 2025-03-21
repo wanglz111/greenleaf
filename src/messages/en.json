@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "Gleaftex | Eco Textiles Thailand - ผ้าที่ยั่งยืน",
+    "description": "Thailand's leading eco-friendly textile brand | ผ้าที่ยั่งยืน leader. Providing organic cotton, recycled polyester, and green fashion solutions, supporting wholesale procurement in the ASEAN region."
+  },
+  "seo": {
+    "keywords": "eco-friendly textiles thailand, sustainable fabrics southeast asia, certified organic cotton thailand, eco textile manufacturer bangkok, Buddhist-inspired sustainable fabrics, ASEAN green fashion suppliers, best eco-friendly textile suppliers, sustainable fabric for clothing, buy organic cotton online, recycled polyester fabric wholesale, green fashion brands"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Brand Story",
+    "products": "Products",
+    "certifications": "Certifications",
+    "testimonials": "Testimonials",
+    "procurement": "Procurement",
+    "contact": "Contact",
+    "sustainability": "Sustainability",
+    "fabric": "Eco Fabrics"
+  },
+  "home": {
+    "hero": {
+      "title": "Sustainable Textiles for ASEAN Fashion | ผ้าที่ยั่งยืนสำหรับแฟชั่นอาเซียน",
+      "subtitle": "Eco-friendly fabrics with Thai craftsmanship",
+      "cta": "Explore Our Products"
+    },
+    "featured": {
+      "title": "Featured Materials",
+      "viewAll": "View All Products"
+    },
+    "about": {
+      "title": "Our Commitment to Sustainability",
+      "content": "At Gleaftex, we blend traditional Thai wisdom with modern eco-friendly technologies to create textiles that respect both nature and culture. Our fabrics are designed for the tropical Southeast Asian climate while meeting global sustainability standards.",
+      "learnMore": "Learn More About Us"
+    },
+    "certifications": {
+      "title": "Certifications & Standards",
+      "asean": "ASEAN Green Standards",
+      "gots": "Global Organic Textile Standard",
+      "tis": "Thai Industrial Standards",
+      "oeko": "OEKO-TEX Standard 100"
+    }
+  },
+  "about": {
+    "title": "Our Brand Story",
+    "vision": {
+      "title": "Vision",
+      "content": "To become Southeast Asia's leading provider of sustainable textiles, harmonizing environmental responsibility with cultural heritage."
+    },
+    "mission": {
+      "title": "Mission",
+      "content": "We create eco-friendly textiles that honor Buddhist principles of respect for all living beings while supporting local communities and reducing environmental impact."
+    },
+    "values": {
+      "title": "Our Values",
+      "sustainability": "Environmental Sustainability",
+      "innovation": "Technological Innovation",
+      "culture": "Cultural Preservation",
+      "community": "Community Support"
+    },
+    "journey": {
+      "title": "Our Journey",
+      "content": "Founded in 2015, Gleaftex began as a small workshop in Bangkok, combining traditional Thai textile techniques with modern sustainable practices. Today, we serve clients across the ASEAN region, maintaining our commitment to quality and sustainability."
+    }
+  },
+  "products": {
+    "title": "Our Sustainable Products",
+    "categories": {
+      "organic": "Organic Cotton",
+      "recycled": "Recycled Polyester",
+      "bamboo": "Bamboo Fabrics",
+      "hemp": "Hemp Textiles",
+      "blends": "Sustainable Blends"
+    },
+    "filters": {
+      "title": "Filter By",
+      "material": "Material",
+      "certification": "Certification",
+      "application": "Application",
+      "weight": "Weight"
+    },
+    "wholesale": {
+      "title": "Wholesale Inquiries",
+      "content": "Looking for bulk orders? Contact our sales team for competitive wholesale pricing and customized solutions.",
+      "cta": "Request Quote"
+    }
+  },
+  "asean": {
+    "title": "ASEAN Certification Standards",
+    "intro": "Understanding the sustainable textile standards across Southeast Asia.",
+    "standards": {
+      "title": "Regional Standards",
+      "content": "We comply with all ASEAN regional environmental standards for textile production, ensuring our products meet or exceed requirements in all member countries."
+    },
+    "logistics": {
+      "title": "Thailand Logistics Solutions",
+      "content": "Our Bangkok-based distribution center offers efficient shipping throughout Southeast Asia, with special rates for ASEAN countries."
+    },
+    "religious": {
+      "title": "Religious-Friendly Materials",
+      "content": "Our production processes respect Buddhist principles and provide options suitable for various religious requirements across the region."
+    },
+    "caseStudies": {
+      "title": "Local Case Studies",
+      "thaiUnion": "Thai Union Collaboration",
+      "content": "Learn how we partnered with Thai Union to develop sustainable uniforms made from recycled ocean plastic."
+    }
+  },
+  "buddhist": {
+    "title": "Sustainability in Buddhist Culture",
+    "intro": "Exploring how Buddhist principles inform our approach to sustainable textiles.",
+    "principles": {
+      "title": "Buddhist Principles in Production",
+      "content": "Our manufacturing processes are guided by Buddhist concepts of mindfulness and respect for all living beings, minimizing harm to the environment."
+    },
+    "designs": {
+      "title": "Thai Designer Collaborations",
+      "content": "We work with local Thai designers to create textiles that incorporate traditional Buddhist motifs and patterns using sustainable techniques."
+    }
+  },
+  "tropical": {
+    "title": "Tropical Climate Solutions",
+    "intro": "Specialized fabrics for Southeast Asian weather conditions",
+    "features": {
+      "title": "Climate-Adapted Features",
+      "moisture": "Enhanced Moisture-Wicking",
+      "uv": "UV Protection",
+      "breathability": "Superior Breathability",
+      "durability": "Tropical Humidity Resistance"
+    }
+  },
+  "payment": {
+    "methods": {
+      "title": "Payment Methods",
+      "promptpay": "PromptPay",
+      "linepay": "LinePay",
+      "international": "International Options"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "products": "Products",
+    "certifications": "Certifications",
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "pdpa": "PDPA Compliance",
+      "tis": "TIS Certification"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "123 Sukhumvit Road, Bangkok, Thailand 10110",
+      "phone": "+66 2 123 4567",
+      "email": "info@gleaftex.com"
+    },
+    "copyright": "© 2025 Gleaftex. All rights reserved.",
+    "social": "Follow Us"
+  },
+  "contact": {
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name (optional)",
+      "message": "Your Message",
+      "consent": "I agree to the processing of my personal data in accordance with Thailand's PDPA requirements.",
+      "submit": "Send Message",
+      "success": "Thank You!",
+      "error": "There was an error submitting your form. Please try again."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated",
+      "overview": "Overview",
+      "overviewContent": "At Gleaftex, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and protect your data when you visit our website or use our services.",
+      "information": "Information We Collect",
+      "usage": "How We Use Your Information",
+      "pdpa": "Compliance with Thailand's Personal Data Protection Act (PDPA)",
+      "cookies": "Cookies and Tracking",
+      "sharing": "Information Sharing",
+      "security": "Data Security",
+      "rights": "Your Rights",
+      "changes": "Changes to this Policy",
+      "contact": "Contact Us"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated",
+      "acceptance": "Acceptance of Terms",
+      "license": "Use License",
+      "disclaimer": "Disclaimer",
+      "productInfo": "Product Information",
+      "intellectual": "Intellectual Property",
+      "thirdParty": "Third Party Websites",
+      "applicable": "Applicable Law",
+      "changes": "Changes",
+      "contact": "Contact Us"
+    }
+  }
+}

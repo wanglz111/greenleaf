@@ -1,0 +1,85 @@
+# 依赖
+/node_modules
+/.pnp
+.pnp.js
+
+# 测试
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# 构建输出
+/build
+/dist
+
+# 杂项
+.DS_Store
+*.pem
+
+# 调试
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA文件
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/fallback-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# IDE特定文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 缓存
+.cache/
+.npm
+
+# 日志
+logs
+*.log
+
+# 临时文件
+.tmp
+.temp
+
+# 备份文件
+*.bak
+*.backup
+*~
+
+# Mac相关
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows相关
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
