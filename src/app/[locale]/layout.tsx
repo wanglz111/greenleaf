@@ -33,6 +33,9 @@ export async function generateMetadata(props: RootLayoutProps) {
       default: 'Gleaftex | Eco Textiles Thailand - ผ้าที่ยั่งยืน',
     },
     description: 'Thailand\'s leading eco-friendly textile brand | ผ้าที่ยั่งยืน leader. Providing organic cotton, recycled polyester, and green fashion solutions, supporting wholesale procurement in the ASEAN region.',
+    icons: {
+      icon: '/icons8-枫叶-bubbles-96.png',
+    },
     viewport: {
       width: 'device-width',
       initialScale: 1,
