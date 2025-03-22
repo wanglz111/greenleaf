@@ -123,7 +123,7 @@ export default function Footer() {
           <div className="py-4 text-sm text-gray-300">
             <h3 className="text-thai-gold font-semibold mb-2">{t('footer.contactUs')}</h3>
             <p>info@gleaftex.com</p>
-            <p className="mt-1">+66 2 123 4567</p>
+            <p className="mt-1">+86 13407586044</p>
           </div>
         </div>
 
