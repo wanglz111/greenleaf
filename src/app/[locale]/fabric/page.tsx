@@ -4,6 +4,10 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
+// 定义类型
+type FabricFeature = string;
+type FabricApplication = string;
+
 // 生态面料详细介绍页面
 export default function EcoFabricsPage() {
   // 获取翻译函数
@@ -13,73 +17,45 @@ export default function EcoFabricsPage() {
   const fabrics = [
     {
       id: 'organic-cotton',
-      name: 'Organic Cotton',
-      subtitle: 'Sustainable & Skin-Friendly',
-      description: `Organic cotton is grown without harmful pesticides, synthetic fertilizers, or genetically modified seeds.
-      At Gleaftex, we source our organic cotton from certified farms in Northern Thailand and neighboring countries, ensuring
-      complete traceability from field to fabric.`,
-      features: [
-        'Free from harmful chemicals and pesticides',
-        'Requires 71% less water than conventional cotton',
-        'Reduces soil erosion and improves biodiversity',
-        'GOTS certified production process',
-        'Extremely soft and suitable for sensitive skin'
-      ],
-      applications: [
-        'Apparel and fashion items',
-        'Home textiles and bedding',
-        'Baby and children\'s products',
-        'Hospital textiles and uniforms'
-      ],
+      name: t('fabric.organicCotton.name'),
+      subtitle: t('fabric.organicCotton.subtitle'),
+      description: t('fabric.organicCotton.description'),
+      features: Array.isArray(t.raw('fabric.organicCotton.features'))
+        ? t.raw('fabric.organicCotton.features') as FabricFeature[]
+        : [] as FabricFeature[],
+      applications: Array.isArray(t.raw('fabric.organicCotton.applications'))
+        ? t.raw('fabric.organicCotton.applications') as FabricApplication[]
+        : [] as FabricApplication[],
       image: '/images/cotton.webp',
       icon: '🌱',
       certifications: ['GOTS', 'OEKO-TEX']
     },
     {
       id: 'recycled-polyester',
-      name: 'Recycled Polyester',
-      subtitle: 'From Plastic Bottles to Premium Fabric',
-      description: `Our recycled polyester transforms plastic waste into high-performance textiles.
-      Each kilogram of our recycled polyester fabric repurposes approximately 30 plastic bottles that
-      would otherwise end up in landfills or oceans. The production process requires 59% less energy
-      than creating virgin polyester.`,
-      features: [
-        'Made from post-consumer plastic bottles (PET)',
-        'Reduces plastic waste and petroleum consumption',
-        'Excellent durability and color retention',
-        'Moisture-wicking and quick-drying properties',
-        'Can be blended with natural fibers for enhanced performance'
-      ],
-      applications: [
-        'Activewear and sportswear',
-        'Outdoor and travel clothing',
-        'Corporate uniforms and workwear',
-        'Bags, backpacks, and accessories'
-      ],
+      name: t('fabric.recycledPolyester.name'),
+      subtitle: t('fabric.recycledPolyester.subtitle'),
+      description: t('fabric.recycledPolyester.description'),
+      features: Array.isArray(t.raw('fabric.recycledPolyester.features'))
+        ? t.raw('fabric.recycledPolyester.features') as FabricFeature[]
+        : [] as FabricFeature[],
+      applications: Array.isArray(t.raw('fabric.recycledPolyester.applications'))
+        ? t.raw('fabric.recycledPolyester.applications') as FabricApplication[]
+        : [] as FabricApplication[],
       image: '/images/polyester.jpeg',
       icon: '♻️',
       certifications: ['GRS', 'OEKO-TEX']
     },
     {
       id: 'bamboo-fabric',
-      name: 'Bamboo Fabric',
-      subtitle: 'Natural Comfort for Tropical Climates',
-      description: `Bamboo is one of nature's most sustainable resources, growing up to 1 meter per day without
-      requiring replanting. Our bamboo fabrics utilize a closed-loop lyocell process that transforms bamboo pulp
-      into luxuriously soft textiles while recapturing 99% of the solvents used in production.`,
-      features: [
-        'Naturally antibacterial and hypoallergenic',
-        'Excellent breathability and thermal regulation',
-        'Absorbs moisture 3-4 times better than cotton',
-        'UV protective properties',
-        'Biodegradable at end of life'
-      ],
-      applications: [
-        'Luxury apparel and undergarments',
-        'Towels and bathroom textiles',
-        'Bedding and sleep products',
-        'Medical and therapeutic textiles'
-      ],
+      name: t('fabric.bambooFabric.name'),
+      subtitle: t('fabric.bambooFabric.subtitle'),
+      description: t('fabric.bambooFabric.description'),
+      features: Array.isArray(t.raw('fabric.bambooFabric.features'))
+        ? t.raw('fabric.bambooFabric.features') as FabricFeature[]
+        : [] as FabricFeature[],
+      applications: Array.isArray(t.raw('fabric.bambooFabric.applications'))
+        ? t.raw('fabric.bambooFabric.applications') as FabricApplication[]
+        : [] as FabricApplication[],
       image: '/images/materials/bamboo-fabric.jpg',
       icon: '🎋',
       certifications: ['FSC', 'OEKO-TEX']
@@ -94,10 +70,10 @@ export default function EcoFabricsPage() {
         <section className="bg-forest-green text-white py-16">
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold mb-6 text-center">
-              Eco-Friendly Fabrics
+              {t('fabric.title')}
             </h1>
             <p className="text-xl max-w-3xl mx-auto text-center">
-              Sustainable textile solutions designed for the modern world and our planet's future
+              {t('fabric.subtitle')}
             </p>
           </div>
         </section>
@@ -112,21 +88,21 @@ export default function EcoFabricsPage() {
                     {fabric.id === 'organic-cotton' ? (
                       <Image
                         src="/images/cotton_field.webp"
-                        alt="Organic Cotton Field"
+                        alt={fabric.name}
                         fill
                         className="object-cover"
                       />
                     ) : fabric.id === 'recycled-polyester' ? (
                       <Image
                         src="/images/polyester.jpeg"
-                        alt="Recycled Polyester"
+                        alt={fabric.name}
                         fill
                         className="object-cover"
                       />
                     ) : fabric.id === 'bamboo-fabric' ? (
                       <Image
                         src="/images/bamboo.jpeg"
-                        alt="Bamboo Fabric"
+                        alt={fabric.name}
                         fill
                         className="object-cover"
                       />
@@ -159,10 +135,10 @@ export default function EcoFabricsPage() {
                 <div className="grid md:grid-cols-2 gap-8 mt-12">
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold mb-4 text-forest-green flex items-center">
-                      <span className="text-thai-gold mr-3">✦</span> Key Features
+                      <span className="text-thai-gold mr-3">✦</span> {t('fabric.keyFeatures')}
                     </h3>
                     <ul className="space-y-2">
-                      {fabric.features.map((feature, i) => (
+                      {fabric.features.map((feature: FabricFeature, i: number) => (
                         <li key={i} className="flex items-start">
                           <span className="text-thai-gold mr-3">•</span>
                           <span>{feature}</span>
@@ -172,10 +148,10 @@ export default function EcoFabricsPage() {
                   </div>
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold mb-4 text-forest-green flex items-center">
-                      <span className="text-thai-gold mr-3">✦</span> Common Applications
+                      <span className="text-thai-gold mr-3">✦</span> {t('fabric.commonApplications')}
                     </h3>
                     <ul className="space-y-2">
-                      {fabric.applications.map((application, i) => (
+                      {fabric.applications.map((application: FabricApplication, i: number) => (
                         <li key={i} className="flex items-start">
                           <span className="text-thai-gold mr-3">•</span>
                           <span>{application}</span>
@@ -192,16 +168,16 @@ export default function EcoFabricsPage() {
         {/* 号召行动 */}
         <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6 text-forest-green">Ready to Explore Our Eco-Friendly Fabrics?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-forest-green">{t('fabric.ready')}</h2>
             <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
-              Discover how our sustainable textiles can transform your products and help you meet your environmental goals.
+              {t('fabric.readyDescription')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link href="/contact" className="btn-primary">
-                Contact Our Team
+                {t('fabric.contactTeam')}
               </Link>
               <Link href="/products" className="btn-secondary">
-                Browse Products
+                {t('fabric.browseProducts')}
               </Link>
             </div>
           </div>

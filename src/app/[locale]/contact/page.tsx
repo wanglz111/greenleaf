@@ -256,10 +256,18 @@ export default function Contact() {
           <h2 className="mobile-subtitle mb-6 text-center text-forest-green">
             {t('contact.location')}
           </h2>
-          <div className="aspect-video bg-gray-200 rounded-lg w-full overflow-hidden shadow-md">
-            <div className="h-full w-full flex items-center justify-center text-gray-400">
-              {t('contact.mapPlaceholder')}
-            </div>
+          <div className="aspect-video w-full overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.895861960984!2d98.9671635!3d18.793886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3b81ab09ce23%3A0x31e4c9543ff15154!2sWP-CM!5e0!3m2!1sen!2sus!4v1716202456730!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="WP-CM Google Maps Location"
+              className="w-full h-full"
+            ></iframe>
           </div>
         </div>
       </section>

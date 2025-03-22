@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "title": "Gleaftex | 泰国生态纺织品 - 可持续面料",
+    "description": "泰国领先的生态友好纺织品牌 | 可持续面料领导者。提供有机棉、再生聚酯纤维和绿色时尚解决方案，支持东盟地区的批发采购。"
+  },
+  "seo": {
+    "keywords": "泰国生态友好纺织品，东南亚可持续面料，认证有机棉泰国，曼谷生态纺织品制造商，佛教启发可持续面料，东盟绿色时尚供应商，最佳生态友好纺织品供应商，服装可持续面料，在线购买有机棉，再生聚酯纤维面料批发，绿色时尚品牌"
+  },
+  "specialty": "专长",
+  "collection": "系列",
+  "nav": {
+    "home": "首页",
+    "about": "品牌故事",
+    "products": "产品",
+    "certifications": "认证",
+    "testimonials": "客户评价",
+    "procurement": "采购",
+    "contact": "联系我们",
+    "sustainability": "可持续发展",
+    "fabric": "生态面料"
+  },
+  "home": {
+    "hero": {
+      "title": "东盟时尚可持续纺织品 | 为东盟时尚提供可持续面料",
+      "subtitle": "泰国工艺的生态友好面料",
+      "cta": "探索我们的产品"
+    },
+    "featured": {
+      "title": "精选材料",
+      "viewAll": "查看所有产品"
+    },
+    "about": {
+      "title": "我们对可持续发展的承诺",
+      "content": "在Gleaftex，我们将传统泰国智慧与现代生态友好技术相结合，创造尊重自然和文化的纺织品。我们的面料专为热带东南亚气候设计，同时符合全球可持续发展标准。",
+      "learnMore": "了解更多关于我们"
+    },
+    "certifications": {
+      "title": "认证和标准",
+      "asean": "东盟绿色标准",
+      "gots": "全球有机纺织品标准",
+      "tis": "泰国工业标准",
+      "oeko": "OEKO-TEX 100标准"
+    }
+  },
+  "about": {
+    "title": "我们的品牌故事",
+    "vision": {
+      "title": "愿景",
+      "content": "成为东南亚领先的可持续纺织品提供商，协调环境责任与文化遗产。"
+    },
+    "mission": {
+      "title": "使命",
+      "content": "通过结合传统泰国工艺与现代生态技术，创造既美观又可持续的面料。我们致力于减少环境影响，同时保持高质量和令人愉悦的美学特性。"
+    },
+    "journey": {
+      "title": "我们的品牌之旅",
+      "content": "Gleaftex始于2015年，由一群对可持续纺织品充满热情的泰国企业家创立。从小型家族作坊开始，我们现已发展成为东南亚领先的生态面料供应商，服务于全球客户。"
+    },
+    "values": {
+      "title": "我们的核心价值观",
+      "sustainability": "可持续发展",
+      "innovation": "创新",
+      "culture": "文化保存",
+      "community": "社区支持",
+      "sustainabilityDesc": "我们将环保理念融入设计和生产的每个阶段，使用再生材料、节水技术和可再生能源。",
+      "innovationDesc": "我们不断探索新材料和生产技术，将传统工艺与现代科技结合，创造前沿的生态纺织解决方案。",
+      "cultureDesc": "我们的设计融入泰国文化元素和佛教灵感，传承当地纺织传统，同时满足现代市场需求。",
+      "communityDesc": "我们支持当地社区，提供公平就业，并通过技能发展计划来赋能工匠和农村生产者。"
+    }
+  },
+  "products": {
+    "title": "我们的可持续产品",
+    "categories": {
+      "all": "全部",
+      "organic": "有机棉",
+      "recycled": "再生聚酯",
+      "bamboo": "竹纤维面料",
+      "hemp": "麻纺织品",
+      "blends": "可持续混纺"
+    },
+    "filters": {
+      "title": "筛选条件",
+      "material": "材料",
+      "certification": "认证",
+      "application": "应用",
+      "weight": "重量",
+      "materials": {
+        "cotton": "棉",
+        "polyester": "聚酯",
+        "bamboo": "竹",
+        "hemp": "麻",
+        "blended": "混纺"
+      },
+      "applications": {
+        "apparel": "服装",
+        "homeTextiles": "家居纺织品",
+        "industrial": "工业用途",
+        "fashion": "时尚"
+      },
+      "weights": {
+        "light": "轻",
+        "medium": "中",
+        "heavy": "重"
+      }
+    },
+    "noResults": "没有符合筛选条件的产品，请尝试其他条件。",
+    "items": {
+      "organicCotton": {
+        "name": "有机棉针织布"
+      },
+      "recycledPET": {
+        "name": "再生PET面料"
+      },
+      "bambooLyocell": {
+        "name": "竹莱赛尔面料"
+      },
+      "hempCanvas": {
+        "name": "麻帆布"
+      },
+      "cottonBamboo": {
+        "name": "棉-竹混纺",
+        "description": "有机棉和竹纤维的可持续混合面料，兼具两种材料的优点。"
+      },
+      "tropicalLinen": {
+        "name": "热带重量亚麻"
+      }
+    },
+    "wholesale": {
+      "title": "批发咨询",
+      "content": "寻找批量订单？联系我们的销售团队获取有竞争力的批发价格和定制解决方案。",
+      "cta": "请求报价"
+    }
+  },
+  "fabric": {
+    "title": "生态友好面料",
+    "subtitle": "为现代世界和地球未来设计的可持续纺织解决方案",
+    "ready": "准备探索我们的生态友好面料？",
+    "readyDescription": "了解我们的可持续纺织品如何改变您的产品并帮助您实现环保目标。",
+    "contactTeam": "联系我们的团队",
+    "browseProducts": "浏览产品",
+    "keyFeatures": "主要特点",
+    "commonApplications": "常见应用",
+    "organicCotton": {
+      "name": "有机棉",
+      "subtitle": "可持续和皮肤友好",
+      "description": "有机棉种植不使用有害农药、合成肥料或转基因种子。在Gleaftex，我们从泰国北部和邻国的认证农场采购有机棉，确保从田间到面料的完全可追溯性。",
+      "features": [
+        "不含有害化学物质和农药",
+        "比传统棉花减少71%的用水量",
+        "减少土壤侵蚀并改善生物多样性",
+        "GOTS认证生产过程",
+        "极其柔软，适合敏感肌肤"
+      ],
+      "applications": [
+        "服装和时尚物品",
+        "家居纺织品和床上用品",
+        "婴幼儿产品",
+        "医院纺织品和制服"
+      ]
+    },
+    "recycledPolyester": {
+      "name": "再生聚酯纤维",
+      "subtitle": "从塑料瓶到优质面料",
+      "description": "我们的再生聚酯纤维将塑料废物转化为高性能纺织品。我们每公斤再生聚酯纤维面料约重复利用30个原本会进入垃圾填埋场或海洋的塑料瓶。生产过程比制造新聚酯纤维减少59%能源消耗。",
+      "features": [
+        "由消费后塑料瓶(PET)制成",
+        "减少塑料废物和石油消耗",
+        "优异的耐用性和色牢度",
+        "吸湿排汗和快干特性",
+        "可与天然纤维混纺以增强性能"
+      ],
+      "applications": [
+        "活动服和运动服",
+        "户外和旅行服装",
+        "企业制服和工作服",
+        "包袋、背包和配件"
+      ]
+    },
+    "bambooFabric": {
+      "name": "竹纤维面料",
+      "subtitle": "热带气候的自然舒适",
+      "description": "竹子是自然界最可持续的资源之一，每天可生长1米且无需重新种植。我们的竹纤维面料采用闭环莱赛尔工艺，将竹浆转化为奢华柔软的纺织品，同时回收99%生产中使用的溶剂。",
+      "features": [
+        "天然抗菌和低过敏性",
+        "优异的透气性和热调节性",
+        "吸湿能力比棉花高3-4倍",
+        "UV防护特性",
+        "生命周期结束时可生物降解"
+      ],
+      "applications": [
+        "奢侈品服装和内衣",
+        "毛巾和浴室纺织品",
+        "床上用品和睡眠产品",
+        "医疗和治疗纺织品"
+      ]
+    }
+  },
+  "certifications": {
+    "title": "认证与标准",
+    "subtitle": "我们对全球和东盟市场最高质量和环境标准的承诺",
+    "global": {
+      "title": "全球认证",
+      "description": "我们遵守严格的国际标准，确保我们的产品满足最高的质量和可持续性标准"
+    },
+    "globalCertifications": [
+      {
+        "name": "GOTS (全球有机纺织品标准)",
+        "icon": "🌎",
+        "description": "有机纺织品认证，涵盖整个纺织品供应链的生态和社会标准。"
+      },
+      {
+        "name": "OEKO-TEX 100标准",
+        "icon": "🔬",
+        "description": "测试纺织品中的有害物质，确保它们对人体健康安全。"
+      },
+      {
+        "name": "GRS (全球回收标准)",
+        "icon": "♻️",
+        "description": "回收成分产品的认证，确保环境、社会和化学合规性。"
+      },
+      {
+        "name": "FSC (森林管理委员会)",
+        "icon": "🌳",
+        "description": "确保产品来自负责任管理森林的认证。"
+      }
+    ],
+    "aseanCountries": [
+      { "name": "泰国", "flag": "🇹🇭", "standards": ["TIS 739", "泰国绿色标签"] },
+      { "name": "新加坡", "flag": "🇸🇬", "standards": ["新加坡绿色标签", "SEC"] },
+      { "name": "马来西亚", "flag": "🇲🇾", "standards": ["MyHIJAU", "SIRIM生态标签"] },
+      { "name": "印度尼西亚", "flag": "🇮🇩", "standards": ["印尼生态标签", "SNI"] },
+      { "name": "越南", "flag": "🇻🇳", "standards": ["越南绿色标签", "TCVN"] },
+      { "name": "菲律宾", "flag": "🇵🇭", "standards": ["国家生态标签计划-绿色选择"] }
+    ],
+    "case": {
+      "title": "本地案例研究",
+      "central": {
+        "title": "中央集团合作",
+        "content": "为泰国和越南中央集团百货商店开发可持续零售制服。"
+      }
+    },
+    "religious": {
+      "buddhist": "佛教启发",
+      "buddhistDesc": "尊重所有生命的材料生产，使用植物染料和最小环境影响。",
+      "halal": "清真认证",
+      "halalDesc": "不含动物衍生成分的纺织品加工，认证适用于穆斯林社区。",
+      "ethical": "道德生产",
+      "ethicalDesc": "符合东盟各国宗教价值观的公平劳工实践和尊重工作条件。"
+    },
+    "logistics": {
+      "bangkok": "曼谷配送中心",
+      "bangkokDesc": "我们位于拉特克拉邦工业区的中心枢纽提供对素万那普机场和主要航运港口的快速访问，确保整个东盟的快速交付。",
+      "bangkokAddress": "地址：泰国曼谷拉特克拉邦工业区123号，10520",
+      "aseanShipping": "东盟航运计划",
+      "singapore": "新加坡",
+      "malaysia": "马来西亚",
+      "vietnam": "越南",
+      "indonesia": "印度尼西亚",
+      "philippines": "菲律宾"
+    }
+  },
+  "sustainability": {
+    "title": "可持续发展",
+    "subtitle": "我们的环保承诺",
+    "intro": "在Gleaftex，可持续发展不仅是我们的商业目标，更是我们存在的理由。我们的环保实践受到泰国佛教哲学的启发，强调与自然和谐共处。",
+    "designerTitle": "可持续发展设计师",
+    "designerPrefix": "我们与以下设计师合作创造生态友好的创新：",
+    "contactUs": "联系我们",
+    "designers": {
+      "placeholderPrefix": "设计师："
+    },
+    "templeTitle": "寺庙项目",
+    "locationPrefix": "地点：",
+    "templeProjects": {
+      "locationPrefix": "地点："
+    },
+    "reports": {
+      "title": "可持续发展报告",
+      "description": "查看我们在各种可持续发展领域的进展报告",
+      "download": "下载PDF",
+      "annual": {
+        "title": "年度可持续发展报告",
+        "description": "过去一年我们在可持续发展方面的努力和成就的全面概述"
+      },
+      "carbon": {
+        "title": "碳足迹报告",
+        "description": "我们的碳排放和减排策略的详细分析"
+      },
+      "water": {
+        "title": "水资源保护报告",
+        "description": "我们的用水模式和节水举措"
+      },
+      "items": [
+        {
+          "title": "年度可持续发展报告",
+          "description": "全面概述我们在过去一年中的可持续发展工作和成就"
+        },
+        {
+          "title": "碳足迹分析",
+          "description": "我们的碳排放数据和减少碳足迹的计划详情"
+        },
+        {
+          "title": "水资源使用报告",
+          "description": "我们的水资源保护实践和减少水消耗的措施"
+        }
+      ]
+    },
+    "commitmentTitle": "我们的承诺",
+    "contact": {
+      "title": "联系我们的可持续发展团队",
+      "description": "想了解更多关于我们的环保实践或合作机会？",
+      "button": "联系我们"
+    },
+    "practicesTitle": "我们的可持续实践",
+    "practicesDescription": "Gleaftex致力于通过创新工艺和负责任采购创造生态友好型纺织品",
+    "buddhistTitle": "佛教文化中的可持续发展",
+    "buddhistDescription": "我们对可持续发展的方法深受佛教慈悲、正念和尊重所有生命的原则影响",
+    "designerDescription": "我们与创新的泰国设计师合作，创造可持续且美丽的纺织品",
+    "templeDescription": "与当地寺庙合作开发可持续纺织品计划",
+    "reportTitle": "可持续发展报告",
+    "reportDescription": "透明报告我们对环境的影响和朝着可持续发展目标的进展",
+    "practices": [
+      {
+        "title": "生态友好材料",
+        "description": "我们优先使用有机、再生和天然来源的材料，减少环境影响。"
+      },
+      {
+        "title": "水资源保护",
+        "description": "我们的制造过程通过创新的回收和净化系统，比行业标准减少50%的用水量。"
+      },
+      {
+        "title": "可再生能源",
+        "description": "我们的泰国设施运行使用40%的太阳能，计划到2026年达到75%的可再生能源。"
+      },
+      {
+        "title": "零废物倡议",
+        "description": "我们通过全面的回收和升级再利用计划实现了85%的废物减少。"
+      }
+    ],
+    "buddhistPrinciples": [
+      {
+        "name": "不伤害 (非暴力)",
+        "description": "对所有生命不使用暴力，体现在我们的无残忍和素食友好材料中。"
+      },
+      {
+        "name": "慈悲",
+        "description": "对所有人的同情，指导我们的公平劳工实践和社区支持倡议。"
+      },
+      {
+        "name": "无常",
+        "description": "无常，激发我们专注于可生物降解材料和循环产品设计。"
+      },
+      {
+        "name": "布施 (慷慨)",
+        "description": "慷慨，推动我们的利润分享模式和对环保事业的捐赠。"
+      }
+    ],
+    "designers_list": [
+      {
+        "name": "Sunan Ongkulsuksa",
+        "specialty": "现代佛教灵感纺织品",
+        "collection": "法纹系列"
+      },
+      {
+        "name": "Malai Ratana",
+        "specialty": "天然染色技术",
+        "collection": "莲花色彩系列"
+      },
+      {
+        "name": "Anurak Thaworn",
+        "specialty": "寺庙灵感图案",
+        "collection": "神圣几何系列"
+      }
+    ],
+    "temple_projects_list": [
+      {
+        "name": "僧袍回收项目",
+        "description": "收集和改造旧僧袍成冥想垫和配件。",
+        "location": "清迈双龙寺"
+      },
+      {
+        "name": "太阳能面料装置",
+        "description": "为寺庙遮阳篷和凉亭开发创新的太阳能收集纺织品。",
+        "location": "曼谷黎明寺"
+      },
+      {
+        "name": "冥想垫倡议",
+        "description": "为泰国各地的寺庙创造环保、人体工学的冥想垫。",
+        "location": "多个地点"
+      }
+    ],
+    "goals": {
+      "title": "2030年可持续发展目标",
+      "carbon": {
+        "title": "碳中和运营",
+        "description": "到2030年通过提高能源效率和投资可再生能源实现碳中和"
+      },
+      "water": {
+        "title": "闭环水系统",
+        "description": "实施先进的水回收技术，确保我们的工厂实现95%的水循环再利用"
+      },
+      "waste": {
+        "title": "零垃圾填埋",
+        "description": "通过回收和创新材料再利用解决方案消除所有生产废物"
+      },
+      "biodiversity": {
+        "title": "生物多样性保护",
+        "description": "支持泰国主要生产区域周围的原生栖息地恢复项目"
+      }
+    }
+  },
+  "asean": {
+    "title": "东盟认证标准",
+    "intro": "了解东南亚可持续纺织品标准。",
+    "standards": {
+      "title": "区域标准",
+      "content": "我们遵守纺织品生产的所有东盟区域环境标准，确保我们的产品满足或超过所有成员国的要求。"
+    },
+    "logistics": {
+      "title": "泰国物流解决方案",
+      "content": "我们以曼谷为基地的配送中心提供整个东南亚的高效运输，为东盟国家提供特别优惠。"
+    },
+    "religious": {
+      "title": "宗教友好材料",
+      "content": "我们的生产过程尊重佛教原则，并提供适合该地区各种宗教要求的选择。"
+    },
+    "caseStudies": {
+      "title": "本地案例研究",
+      "thaiUnion": "泰国联合集团合作",
+      "content": "了解我们如何与泰国联合集团合作开发由回收海洋塑料制成的可持续制服。"
+    }
+  },
+  "buddhist": {
+    "title": "佛教文化中的可持续发展",
+    "intro": "探索佛教原则如何影响我们对可持续纺织品的方法。",
+    "principles": {
+      "title": "生产中的佛教原则",
+      "content": "我们的制造过程以佛教正念和尊重所有生命的概念为指导，最大限度地减少对环境的伤害。"
+    },
+    "designs": {
+      "title": "泰国设计师合作",
+      "content": "我们与当地泰国设计师合作，使用可持续技术创造融入传统佛教图案和花纹的纺织品。"
+    }
+  },
+  "tropical": {
+    "title": "热带气候解决方案",
+    "intro": "专为东南亚天气条件设计的专业面料",
+    "features": {
+      "title": "适应气候的特点",
+      "moisture": "增强吸湿排汗",
+      "uv": "紫外线防护",
+      "breathability": "卓越透气性",
+      "durability": "热带湿度抵抗力"
+    }
+  },
+  "payment": {
+    "methods": {
+      "title": "支付方式",
+      "promptpay": "PromptPay",
+      "linepay": "LinePay",
+      "international": "国际选项"
+    }
+  },
+  "footer": {
+    "company": "公司",
+    "products": "产品",
+    "certifications": "认证",
+    "legal": {
+      "title": "法律",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "pdpa": "PDPA合规",
+      "tis": "TIS认证"
+    },
+    "contact": {
+      "title": "联系我们",
+      "address": "泰国曼谷素坤逸路123号，10110",
+      "phone": "+66 2 123 4567",
+      "email": "info@gleaftex.com"
+    },
+    "copyright": "© 2025 Gleaftex. 保留所有权利。",
+    "social": "关注我们",
+    "contactUs": "联系我们",
+    "address": "泰国曼谷素坤逸路123号 10110"
+  },
+  "contact": {
+    "form": {
+      "title": "给我们发送消息",
+      "name": "全名",
+      "email": "电子邮箱",
+      "company": "公司名称（可选）",
+      "message": "您的消息",
+      "consent": "我同意根据泰国PDPA要求处理我的个人数据。",
+      "submit": "发送消息",
+      "success": "谢谢您！",
+      "error": "提交表单时出现错误。请再试一次。"
+    },
+    "location": "我们的位置",
+    "mapPlaceholder": "地图占位符 - 谷歌地图集成即将推出"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新",
+      "overview": "概述",
+      "overviewContent": "在Gleaftex，我们致力于保护您的隐私并确保您个人信息的安全。本隐私政策解释了我们在您访问我们的网站或使用我们的服务时如何收集、使用和保护您的数据。",
+      "information": "我们收集的信息",
+      "usage": "我们如何使用您的信息",
+      "pdpa": "遵守泰国个人数据保护法(PDPA)",
+      "cookies": "Cookie和跟踪",
+      "sharing": "信息共享",
+      "security": "数据安全",
+      "rights": "您的权利",
+      "changes": "政策变更",
+      "contact": "联系我们"
+    },
+    "terms": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新",
+      "acceptance": "条款接受",
+      "license": "使用许可",
+      "disclaimer": "免责声明",
+      "productInfo": "产品信息",
+      "intellectual": "知识产权",
+      "thirdParty": "第三方网站",
+      "applicable": "适用法律",
+      "changes": "变更",
+      "contact": "联系我们"
+    }
+  },
+  "materials": {
+    "title": "我们的生态友好材料",
+    "intro": "探索使我们的纺织品环保且高性能的可持续材料。",
+    "organicCotton": {
+      "title": "有机棉",
+      "content": "在没有有害农药或合成肥料的情况下种植，我们的有机棉获得GOTS认证，并从泰国和邻近国家的负责任农场采购。"
+    },
+    "recycledPolyester": {
+      "title": "再生聚酯纤维",
+      "content": "由消费后塑料瓶制成，我们的再生聚酯纤维有助于减少废物，同时提供耐用且多功能的面料选择。"
+    },
+    "bamboo": {
+      "title": "竹纤维面料",
+      "content": "使用来自可持续来源的快速再生竹子，我们的竹纤维面料提供天然抗菌特性和卓越的柔软度，非常适合泰国的热带气候。"
+    },
+    "hemp": {
+      "title": "麻纺织品",
+      "content": "作为最环保的天然纤维之一，我们的麻纺织品需要很少的水分和无需农药即可生长，产生出坚固耐用的面料。"
+    },
+    "tropical": {
+      "title": "热带气候解决方案",
+      "content": "专为东南亚天气条件设计，我们的面料具有吸湿排汗、防紫外线和优越的透气性，提供适当的舒适度。"
+    }
+  }
+}

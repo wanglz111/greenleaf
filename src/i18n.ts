@@ -3,7 +3,7 @@ import { getRequestConfig } from 'next-intl/server';
 import { createSharedPathnamesNavigation } from 'next-intl/navigation';
 
 // 支持的语言列表
-export const locales = ['en', 'th'];
+export const locales = ['en', 'th', 'zh'];
 
 // 创建共享路径导航
 export const { Link, redirect, usePathname, useRouter } = createSharedPathnamesNavigation({ locales });

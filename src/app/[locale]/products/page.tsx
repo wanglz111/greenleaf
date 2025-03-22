@@ -20,73 +20,73 @@ export default function Products() {
 
   // 筛选条件
   const filters = {
-    material: ['Cotton', 'Polyester', 'Bamboo', 'Hemp', 'Blended'],
+    material: [t('products.filters.materials.cotton'), t('products.filters.materials.polyester'), t('products.filters.materials.bamboo'), t('products.filters.materials.hemp'), t('products.filters.materials.blended')],
     certification: ['GOTS', 'OEKO-TEX', 'ASEAN Green', 'TIS'],
-    application: ['Apparel', 'Home Textiles', 'Industrial', 'Fashion'],
-    weight: ['Light', 'Medium', 'Heavy']
+    application: [t('products.filters.applications.apparel'), t('products.filters.applications.homeTextiles'), t('products.filters.applications.industrial'), t('products.filters.applications.fashion')],
+    weight: [t('products.filters.weights.light'), t('products.filters.weights.medium'), t('products.filters.weights.heavy')]
   };
 
   // 产品列表
   const [products] = useState([
     {
       id: 'p1',
-      name: 'Organic Cotton Jersey',
+      name: t('products.items.organicCotton.name'),
       category: 'organic',
       image: '/images/products/organic-cotton-jersey.jpg',
       description: t('materials.organicCotton.content').substring(0, 100) + '...',
       certifications: ['GOTS', 'OEKO-TEX'],
-      applications: ['Apparel', 'Fashion'],
-      weight: 'Medium'
+      applications: [t('products.filters.applications.apparel'), t('products.filters.applications.fashion')],
+      weight: t('products.filters.weights.medium')
     },
     {
       id: 'p2',
-      name: 'Recycled PET Fabric',
+      name: t('products.items.recycledPET.name'),
       category: 'recycled',
       image: '/images/products/recycled-pet.jpg',
       description: t('materials.recycledPolyester.content').substring(0, 100) + '...',
       certifications: ['ASEAN Green', 'OEKO-TEX'],
-      applications: ['Apparel', 'Industrial'],
-      weight: 'Light'
+      applications: [t('products.filters.applications.apparel'), t('products.filters.applications.industrial')],
+      weight: t('products.filters.weights.light')
     },
     {
       id: 'p3',
-      name: 'Bamboo Lyocell',
+      name: t('products.items.bambooLyocell.name'),
       category: 'bamboo',
       image: '/images/products/bamboo-lyocell.jpg',
       description: t('materials.bamboo.content').substring(0, 100) + '...',
       certifications: ['OEKO-TEX', 'TIS'],
-      applications: ['Home Textiles', 'Apparel'],
-      weight: 'Light'
+      applications: [t('products.filters.applications.homeTextiles'), t('products.filters.applications.apparel')],
+      weight: t('products.filters.weights.light')
     },
     {
       id: 'p4',
-      name: 'Hemp Canvas',
+      name: t('products.items.hempCanvas.name'),
       category: 'hemp',
       image: '/images/products/hemp-canvas.jpg',
       description: t('materials.hemp.content').substring(0, 100) + '...',
       certifications: ['ASEAN Green'],
-      applications: ['Industrial', 'Home Textiles'],
-      weight: 'Heavy'
+      applications: [t('products.filters.applications.industrial'), t('products.filters.applications.homeTextiles')],
+      weight: t('products.filters.weights.heavy')
     },
     {
       id: 'p5',
-      name: 'Cotton-Bamboo Blend',
+      name: t('products.items.cottonBamboo.name'),
       category: 'blends',
       image: '/images/products/cotton-bamboo.jpg',
-      description: 'A sustainable blend of organic cotton and bamboo fibers, offering the best of both materials.',
+      description: t('products.items.cottonBamboo.description'),
       certifications: ['GOTS', 'TIS'],
-      applications: ['Fashion', 'Apparel'],
-      weight: 'Medium'
+      applications: [t('products.filters.applications.fashion'), t('products.filters.applications.apparel')],
+      weight: t('products.filters.weights.medium')
     },
     {
       id: 'p6',
-      name: 'Tropical Weight Linen',
+      name: t('products.items.tropicalLinen.name'),
       category: 'blends',
       image: '/images/products/tropical-linen.jpg',
       description: t('materials.tropical.content').substring(0, 100) + '...',
       certifications: ['ASEAN Green', 'TIS'],
-      applications: ['Fashion', 'Apparel'],
-      weight: 'Light'
+      applications: [t('products.filters.applications.fashion'), t('products.filters.applications.apparel')],
+      weight: t('products.filters.weights.light')
     }
   ]);
 
@@ -177,7 +177,7 @@ export default function Products() {
               onClick={() => setActiveCategory('all')}
               className={`px-4 py-2 rounded-full ${activeCategory === 'all' ? 'bg-forest-green text-white' : 'bg-white text-gray-700 border border-gray-300'}`}
             >
-              All
+              {t('products.categories.all')}
             </button>
 
             {categories.map((category) => (
@@ -290,7 +290,7 @@ export default function Products() {
             <div className="md:col-span-3">
               {filteredProducts.length === 0 ? (
                 <div className="text-center py-12 bg-gray-50 rounded-lg">
-                  <p className="text-gray-500">No products match your filters. Please try different criteria.</p>
+                  <p className="text-gray-500">{t('products.noResults')}</p>
                 </div>
               ) : (
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

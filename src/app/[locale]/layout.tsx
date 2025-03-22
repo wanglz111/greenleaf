@@ -16,11 +16,17 @@ const inter = Inter({ subsets: ['latin'] });
 // 定义布局组件的属性类型
 interface RootLayoutProps {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }
 
 // 生成元数据
-export function generateMetadata({ params: { locale } }: RootLayoutProps) {
+export async function generateMetadata(props: RootLayoutProps) {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
   return {
     title: {
       template: '%s | Gleaftex',
@@ -47,7 +53,17 @@ export function generateStaticParams() {
 }
 
 // 根布局组件
-export default async function RootLayout({ children, params: { locale } }: RootLayoutProps) {
+export default async function RootLayout(props: RootLayoutProps) {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
+  const {
+    children
+  } = props;
+
   // 检查语言是否支持
   if (!locales.includes(locale)) notFound();
 

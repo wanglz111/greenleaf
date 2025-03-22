@@ -15,25 +15,25 @@ export default function About() {
       id: 'sustainability',
       title: t('about.values.sustainability'),
       icon: '🌱',
-      description: t('materials.intro').substring(0, 100) + '...'
+      description: t('about.values.sustainabilityDesc')
     },
     {
       id: 'innovation',
       title: t('about.values.innovation'),
       icon: '💡',
-      description: t('materials.tropical.content').substring(0, 100) + '...'
+      description: t('about.values.innovationDesc')
     },
     {
       id: 'culture',
       title: t('about.values.culture'),
       icon: '🏮',
-      description: t('buddhist.designs.content').substring(0, 100) + '...'
+      description: t('about.values.cultureDesc')
     },
     {
       id: 'community',
       title: t('about.values.community'),
       icon: '👥',
-      description: t('asean.religious.content').substring(0, 100) + '...'
+      description: t('about.values.communityDesc')
     }
   ];
 

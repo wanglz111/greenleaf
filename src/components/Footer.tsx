@@ -75,7 +75,7 @@ export default function Footer() {
               Gleaftex
             </h3>
             <p className="text-gray-300 text-sm mb-3">
-              123 Sukhumvit Road, Bangkok, Thailand 10110
+              {t('footer.address')}
             </p>
             <div className="flex space-x-4 mt-3">
               {socialLinks.map((link) => (
@@ -121,7 +121,7 @@ export default function Footer() {
 
           {/* 联系信息 */}
           <div className="py-4 text-sm text-gray-300">
-            <h3 className="text-thai-gold font-semibold mb-2">Contact Us</h3>
+            <h3 className="text-thai-gold font-semibold mb-2">{t('footer.contactUs')}</h3>
             <p>info@gleaftex.com</p>
             <p className="mt-1">+66 2 123 4567</p>
           </div>
@@ -137,7 +137,7 @@ export default function Footer() {
                 Gleaftex
               </h3>
               <p className="text-gray-300 text-sm mb-3">
-                123 Sukhumvit Road, Bangkok, Thailand 10110
+                {t('footer.address')}
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((link) => (
@@ -177,7 +177,7 @@ export default function Footer() {
             {/* 联系信息 */}
             <div className="col-span-3">
               <h3 className="text-sm font-semibold mb-3 text-thai-gold">
-                Contact Us
+                {t('footer.contactUs')}
               </h3>
               <div className="text-xs text-gray-300">
                 <p>info@gleaftex.com</p>

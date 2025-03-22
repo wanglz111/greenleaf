@@ -1,202 +1,555 @@
 {
-  "meta": {
-    "title": "Gleaftex | Eco Textiles Thailand - ผ้าที่ยั่งยืน",
-    "description": "Thailand's leading eco-friendly textile brand | ผ้าที่ยั่งยืน leader. Providing organic cotton, recycled polyester, and green fashion solutions, supporting wholesale procurement in the ASEAN region."
-  },
-  "seo": {
-    "keywords": "eco-friendly textiles thailand, sustainable fabrics southeast asia, certified organic cotton thailand, eco textile manufacturer bangkok, Buddhist-inspired sustainable fabrics, ASEAN green fashion suppliers, best eco-friendly textile suppliers, sustainable fabric for clothing, buy organic cotton online, recycled polyester fabric wholesale, green fashion brands"
-  },
-  "nav": {
-    "home": "Home",
-    "about": "Brand Story",
-    "products": "Products",
-    "certifications": "Certifications",
-    "testimonials": "Testimonials",
-    "procurement": "Procurement",
-    "contact": "Contact",
-    "sustainability": "Sustainability",
-    "fabric": "Eco Fabrics"
-  },
-  "home": {
-    "hero": {
-      "title": "Sustainable Textiles for ASEAN Fashion | ผ้าที่ยั่งยืนสำหรับแฟชั่นอาเซียน",
-      "subtitle": "Eco-friendly fabrics with Thai craftsmanship",
-      "cta": "Explore Our Products"
+    "meta": {
+      "title": "Gleaftex | Thailand Eco-friendly Textiles - Sustainable Fabrics",
+      "description": "Thailand's leading eco-friendly textile brand | Leader in sustainable fabrics. Offering organic cotton, recycled polyester, and green fashion solutions, supporting wholesale purchases in the ASEAN region."
     },
-    "featured": {
-      "title": "Featured Materials",
-      "viewAll": "View All Products"
+    "seo": {
+      "keywords": "Thai eco-friendly textiles, Southeast Asian sustainable fabrics, certified organic cotton Thailand, Bangkok eco-textile manufacturers, Buddhist-inspired sustainable fabrics, ASEAN green fashion suppliers, best eco-friendly textile suppliers, sustainable fabrics for apparel, online purchase organic cotton, recycled polyester wholesale, green fashion brand"
+    },
+    "specialty": "Specialty",
+    "collection": "Collection",
+    "nav": {
+      "home": "Home",
+      "about": "Brand Story",
+      "products": "Products",
+      "certifications": "Certifications",
+      "testimonials": "Testimonials",
+      "procurement": "Procurement",
+      "contact": "Contact Us",
+      "sustainability": "Sustainability",
+      "fabric": "Eco Fabrics"
+    },
+    "home": {
+      "hero": {
+        "title": "ASEAN Fashion Sustainable Textiles | Providing Sustainable Fabrics for ASEAN Fashion",
+        "subtitle": "Eco-friendly fabrics with Thai craftsmanship",
+        "cta": "Explore Our Products"
+      },
+      "featured": {
+        "title": "Featured Materials",
+        "viewAll": "View All Products"
+      },
+      "about": {
+        "title": "Our Commitment to Sustainability",
+        "content": "At Gleaftex, we combine traditional Thai wisdom with modern eco-friendly technology to create textiles that honor nature and culture. Our fabrics are designed for the tropical Southeast Asian climate and meet global sustainability standards.",
+        "learnMore": "Learn More About Us"
+      },
+      "certifications": {
+        "title": "Certifications and Standards",
+        "asean": "ASEAN Green Standards",
+        "gots": "Global Organic Textile Standard (GOTS)",
+        "tis": "Thai Industrial Standards (TIS)",
+        "oeko": "OEKO-TEX Standard 100"
+      }
     },
     "about": {
-      "title": "Our Commitment to Sustainability",
-      "content": "At Gleaftex, we blend traditional Thai wisdom with modern eco-friendly technologies to create textiles that respect both nature and culture. Our fabrics are designed for the tropical Southeast Asian climate while meeting global sustainability standards.",
-      "learnMore": "Learn More About Us"
+      "title": "Our Brand Story",
+      "vision": {
+        "title": "Vision",
+        "content": "To become Southeast Asia's leading provider of sustainable textiles, harmonizing environmental responsibility with cultural heritage."
+      },
+      "mission": {
+        "title": "Mission",
+        "content": "By combining traditional Thai craftsmanship with modern eco-technologies, we create fabrics that are both beautiful and sustainable. We are committed to reducing environmental impact while maintaining high quality and appealing aesthetics."
+      },
+      "journey": {
+        "title": "Our Brand Journey",
+        "content": "Gleaftex began in 2015, founded by a group of passionate Thai entrepreneurs dedicated to sustainable textiles. Starting as a small family workshop, we have grown into Southeast Asia's leading supplier of eco fabrics, serving global clients."
+      },
+      "values": {
+        "title": "Our Core Values",
+        "sustainability": "Sustainability",
+        "innovation": "Innovation",
+        "culture": "Cultural Preservation",
+        "community": "Community Support",
+        "sustainabilityDesc": "We incorporate eco-friendly principles into every stage of design and production, using recycled materials, water-saving techniques, and renewable energy.",
+        "innovationDesc": "We continually explore new materials and production methods, merging traditional techniques with modern technology to create cutting-edge eco-textile solutions.",
+        "cultureDesc": "Our designs incorporate elements of Thai culture and Buddhist inspiration, preserving local textile traditions while meeting modern market demands.",
+        "communityDesc": "We support local communities by providing fair employment and empowering artisans and rural producers through skill development programs."
+      }
+    },
+    "products": {
+      "title": "Our Sustainable Products",
+      "categories": {
+        "all": "All",
+        "organic": "Organic Cotton",
+        "recycled": "Recycled Polyester",
+        "bamboo": "Bamboo Fabric",
+        "hemp": "Hemp Textiles",
+        "blends": "Sustainable Blends"
+      },
+      "filters": {
+        "title": "Filters",
+        "material": "Material",
+        "certification": "Certification",
+        "application": "Application",
+        "weight": "Weight",
+        "materials": {
+          "cotton": "Cotton",
+          "polyester": "Polyester",
+          "bamboo": "Bamboo",
+          "hemp": "Hemp",
+          "blended": "Blended"
+        },
+        "applications": {
+          "apparel": "Apparel",
+          "homeTextiles": "Home Textiles",
+          "industrial": "Industrial",
+          "fashion": "Fashion"
+        },
+        "weights": {
+          "light": "Light",
+          "medium": "Medium",
+          "heavy": "Heavy"
+        }
+      },
+      "noResults": "No products match the selected filters, please try different criteria.",
+      "items": {
+        "organicCotton": {
+          "name": "Organic Cotton Knit"
+        },
+        "recycledPET": {
+          "name": "Recycled PET Fabric"
+        },
+        "bambooLyocell": {
+          "name": "Bamboo Lyocell Fabric"
+        },
+        "hempCanvas": {
+          "name": "Hemp Canvas"
+        },
+        "cottonBamboo": {
+          "name": "Cotton-Bamboo Blend",
+          "description": "A sustainable blend of organic cotton and bamboo fiber, combining the best properties of both materials."
+        },
+        "tropicalLinen": {
+          "name": "Tropical Weight Linen"
+        }
+      },
+      "wholesale": {
+        "title": "Wholesale Inquiry",
+        "content": "Looking for bulk orders? Contact our sales team for competitive wholesale pricing and customized solutions.",
+        "cta": "Request a Quote"
+      }
+    },
+    "fabric": {
+      "title": "Eco-Friendly Fabrics",
+      "subtitle": "Sustainable textile solutions designed for the modern world and the future of our planet",
+      "ready": "Ready to explore our eco-friendly fabrics?",
+      "readyDescription": "Discover how our sustainable textiles can transform your products and help you achieve environmental goals.",
+      "contactTeam": "Contact Our Team",
+      "browseProducts": "Browse Products",
+      "keyFeatures": "Key Features",
+      "commonApplications": "Common Applications",
+      "organicCotton": {
+        "name": "Organic Cotton",
+        "subtitle": "Sustainable and Skin-Friendly",
+        "description": "Organic cotton is grown without harmful pesticides, synthetic fertilizers, or GMOs. At Gleaftex, we source organic cotton from certified farms in northern Thailand and neighboring countries, ensuring full traceability from field to fabric.",
+        "features": [
+          "Free from harmful chemicals and pesticides",
+          "Uses 71% less water than conventional cotton",
+          "Reduces soil erosion and improves biodiversity",
+          "GOTS certified production process",
+          "Exceptionally soft, ideal for sensitive skin"
+        ],
+        "applications": [
+          "Apparel and fashion items",
+          "Home textiles and bedding",
+          "Infant products",
+          "Hospital textiles and uniforms"
+        ]
+      },
+      "recycledPolyester": {
+        "name": "Recycled Polyester",
+        "subtitle": "From Plastic Bottles to Premium Fabrics",
+        "description": "Our recycled polyester transforms plastic waste into high-performance textiles. Each kilogram of recycled polyester fabric reuses approximately 30 plastic bottles that would otherwise end up in landfills or the ocean. Its production process uses 59% less energy than manufacturing new polyester.",
+        "features": [
+          "Made from post-consumer plastic bottles (PET)",
+          "Reduces plastic waste and petroleum consumption",
+          "Excellent durability and color fastness",
+          "Moisture-wicking and quick-drying properties",
+          "Can be blended with natural fibers to enhance performance"
+        ],
+        "applications": [
+          "Activewear and sportswear",
+          "Outdoor and travel apparel",
+          "Corporate uniforms and workwear",
+          "Bags, backpacks, and accessories"
+        ]
+      },
+      "bambooFabric": {
+        "name": "Bamboo Fabric",
+        "subtitle": "Natural Comfort for Tropical Climates",
+        "description": "Bamboo is one of nature's most sustainable resources, growing up to one meter per day without replanting. Our bamboo fabric uses a closed-loop lyocell process, transforming bamboo pulp into luxurious, soft textiles while recovering 99% of the solvents used in production.",
+        "features": [
+          "Naturally antibacterial and hypoallergenic",
+          "Outstanding breathability and thermal regulation",
+          "Absorbs 3-4 times more moisture than cotton",
+          "UV protection",
+          "Biodegradable at end of life"
+        ],
+        "applications": [
+          "Luxury apparel and lingerie",
+          "Towels and bath textiles",
+          "Bedding and sleepwear",
+          "Medical and therapeutic textiles"
+        ]
+      }
     },
     "certifications": {
-      "title": "Certifications & Standards",
-      "asean": "ASEAN Green Standards",
-      "gots": "Global Organic Textile Standard",
-      "tis": "Thai Industrial Standards",
-      "oeko": "OEKO-TEX Standard 100"
-    }
-  },
-  "about": {
-    "title": "Our Brand Story",
-    "vision": {
-      "title": "Vision",
-      "content": "To become Southeast Asia's leading provider of sustainable textiles, harmonizing environmental responsibility with cultural heritage."
+      "title": "Certifications and Standards",
+      "subtitle": "Our commitment to the highest quality and environmental standards in global and ASEAN markets",
+      "global": {
+        "title": "Global Certifications",
+        "description": "We adhere to strict international standards to ensure our products meet the highest quality and sustainability benchmarks"
+      },
+      "globalCertifications": [
+        {
+          "name": "GOTS (Global Organic Textile Standard)",
+          "icon": "🌎",
+          "description": "Organic textile certification covering ecological and social standards throughout the supply chain."
+        },
+        {
+          "name": "OEKO-TEX Standard 100",
+          "icon": "🔬",
+          "description": "Tests textiles for harmful substances, ensuring they are safe for human health."
+        },
+        {
+          "name": "GRS (Global Recycle Standard)",
+          "icon": "♻️",
+          "description": "Certification for recycled content products, ensuring environmental, social, and chemical compliance."
+        },
+        {
+          "name": "FSC (Forest Stewardship Council)",
+          "icon": "🌳",
+          "description": "Certification ensuring products come from responsibly managed forests."
+        }
+      ],
+      "aseanCountries": [
+        { "name": "Thailand", "flag": "🇹🇭", "standards": ["TIS 739", "Thai Green Label"] },
+        { "name": "Singapore", "flag": "🇸🇬", "standards": ["Singapore Green Label", "SEC"] },
+        { "name": "Malaysia", "flag": "🇲🇾", "standards": ["MyHIJAU", "SIRIM Eco Label"] },
+        { "name": "Indonesia", "flag": "🇮🇩", "standards": ["Indonesian Eco Label", "SNI"] },
+        { "name": "Vietnam", "flag": "🇻🇳", "standards": ["Vietnam Green Label", "TCVN"] },
+        { "name": "Philippines", "flag": "🇵🇭", "standards": ["National Eco-label Program - Green Choice"] }
+      ],
+      "case": {
+        "title": "Local Case Studies",
+        "central": {
+          "title": "Central Group Collaboration",
+          "content": "Developing sustainable retail uniforms for Central Group department stores in Thailand and Vietnam."
+        }
+      },
+      "religious": {
+        "buddhist": "Buddhist Inspired",
+        "buddhistDesc": "Materials produced with respect for all life, using plant-based dyes and minimal environmental impact.",
+        "halal": "Halal Certified",
+        "halalDesc": "Textile processing without animal derivatives, certified for Muslim communities.",
+        "ethical": "Ethically Produced",
+        "ethicalDesc": "Fair labor practices and respect for working conditions in line with ASEAN religious values."
+      },
+      "logistics": {
+        "bangkok": "Bangkok Distribution Center",
+        "bangkokDesc": "Our central hub in the Lat Krabang industrial zone offers quick access to Suvarnabhumi Airport and major shipping ports, ensuring rapid delivery across ASEAN.",
+        "bangkokAddress": "Address: 123 Lat Krabang Industrial Zone, Bangkok, 10520, Thailand",
+        "aseanShipping": "ASEAN Shipping Program",
+        "singapore": "Singapore",
+        "malaysia": "Malaysia",
+        "vietnam": "Vietnam",
+        "indonesia": "Indonesia",
+        "philippines": "Philippines"
+      }
     },
-    "mission": {
-      "title": "Mission",
-      "content": "We create eco-friendly textiles that honor Buddhist principles of respect for all living beings while supporting local communities and reducing environmental impact."
+    "sustainability": {
+      "title": "Sustainability",
+      "subtitle": "Our Commitment to the Environment",
+      "intro": "At Gleaftex, sustainability is not just a business goal, but the reason we exist. Our eco-practices are inspired by Thai Buddhist philosophy, emphasizing harmony with nature.",
+      "designerTitle": "Sustainable Designers",
+      "designerPrefix": "We collaborate with the following designers to create innovative eco-friendly solutions:",
+      "contactUs": "Contact Us",
+      "designers": {
+        "placeholderPrefix": "Designer:"
+      },
+      "templeTitle": "Temple Projects",
+      "locationPrefix": "Location:",
+      "templeProjects": {
+        "locationPrefix": "Location:"
+      },
+      "reports": {
+        "title": "Sustainability Reports",
+        "description": "View our progress reports in various sustainability areas",
+        "download": "Download PDF",
+        "annual": {
+          "title": "Annual Sustainability Report",
+          "description": "A comprehensive overview of our efforts and achievements in sustainability over the past year"
+        },
+        "carbon": {
+          "title": "Carbon Footprint Report",
+          "description": "A detailed analysis of our carbon emissions and reduction strategies"
+        },
+        "water": {
+          "title": "Water Conservation Report",
+          "description": "Our water usage patterns and conservation measures"
+        },
+        "items": [
+          {
+            "title": "Annual Sustainability Report",
+            "description": "A comprehensive overview of our sustainability efforts and achievements in the past year"
+          },
+          {
+            "title": "Carbon Footprint Analysis",
+            "description": "Details of our carbon emission data and plans to reduce our carbon footprint"
+          },
+          {
+            "title": "Water Usage Report",
+            "description": "Our practices for water conservation and measures to reduce water consumption"
+          }
+        ]
+      },
+      "commitmentTitle": "Our Commitment",
+      "contact": {
+        "title": "Contact Our Sustainability Team",
+        "description": "Want to learn more about our eco-friendly practices or partnership opportunities?",
+        "button": "Contact Us"
+      },
+      "practicesTitle": "Our Sustainable Practices",
+      "practicesDescription": "Gleaftex is committed to creating eco-friendly textiles through innovative craftsmanship and responsible sourcing",
+      "buddhistTitle": "Sustainability in Buddhist Culture",
+      "buddhistDescription": "Our approach to sustainability is deeply influenced by Buddhist principles of compassion, mindfulness, and respect for all life",
+      "designerDescription": "We collaborate with innovative Thai designers to create textiles that are both sustainable and beautiful",
+      "templeDescription": "Collaborating with local temples to develop sustainable textile initiatives",
+      "reportTitle": "Sustainability Reports",
+      "reportDescription": "Transparent reporting of our environmental impact and progress toward sustainability goals",
+      "practices": [
+        {
+          "title": "Eco-Friendly Materials",
+          "description": "We prioritize using organic, recycled, and naturally sourced materials to minimize environmental impact."
+        },
+        {
+          "title": "Water Conservation",
+          "description": "Our manufacturing process uses innovative recycling and purification systems to reduce water usage by 50% compared to industry standards."
+        },
+        {
+          "title": "Renewable Energy",
+          "description": "Our facilities in Thailand operate on 40% solar energy, with plans to reach 75% renewable energy by 2026."
+        },
+        {
+          "title": "Zero Waste Initiative",
+          "description": "We have achieved an 85% reduction in waste through comprehensive recycling and upcycling initiatives."
+        }
+      ],
+      "buddhistPrinciples": [
+        {
+          "name": "Non-violence (Ahimsa)",
+          "description": "No violence towards any living being, reflected in our cruelty-free and vegan-friendly materials."
+        },
+        {
+          "name": "Compassion",
+          "description": "Empathy for all, guiding our fair labor practices and community support initiatives."
+        },
+        {
+          "name": "Impermanence",
+          "description": "Impermanence inspires us to focus on biodegradable materials and circular product design."
+        },
+        {
+          "name": "Generosity (Dana)",
+          "description": "Generosity drives our profit-sharing models and donations towards environmental causes."
+        }
+      ],
+      "designers_list": [
+        {
+          "name": "Sunan Ongkulsuksa",
+          "specialty": "Modern Buddhist-inspired Textiles",
+          "collection": "Fawen Collection"
+        },
+        {
+          "name": "Malai Ratana",
+          "specialty": "Natural Dyeing Techniques",
+          "collection": "Lotus Color Collection"
+        },
+        {
+          "name": "Anurak Thaworn",
+          "specialty": "Temple-Inspired Patterns",
+          "collection": "Sacred Geometry Collection"
+        }
+      ],
+      "temple_projects_list": [
+        {
+          "name": "Monk Robe Recycling Project",
+          "description": "Collecting and repurposing old monk robes into meditation mats and accessories.",
+          "location": "Chiang Mai Shuanglong Temple"
+        },
+        {
+          "name": "Solar Fabric Installation",
+          "description": "Developing innovative solar-collecting textiles for temple canopies and pavilions.",
+          "location": "Bangkok Dawn Temple"
+        },
+        {
+          "name": "Meditation Mat Initiative",
+          "description": "Creating eco-friendly, ergonomic meditation mats for temples across Thailand.",
+          "location": "Multiple Locations"
+        }
+      ],
+      "goals": {
+        "title": "2030 Sustainability Goals",
+        "carbon": {
+          "title": "Carbon Neutral Operations",
+          "description": "Achieve carbon neutrality by 2030 through improved energy efficiency and investments in renewable energy."
+        },
+        "water": {
+          "title": "Closed-Loop Water System",
+          "description": "Implement advanced water recycling technology to achieve 95% water reuse in our facilities."
+        },
+        "waste": {
+          "title": "Zero Landfill Waste",
+          "description": "Eliminate all production waste through recycling and innovative material upcycling solutions."
+        },
+        "biodiversity": {
+          "title": "Biodiversity Conservation",
+          "description": "Support restoration projects for native habitats around major production areas in Thailand."
+        }
+      }
     },
-    "values": {
-      "title": "Our Values",
-      "sustainability": "Environmental Sustainability",
-      "innovation": "Technological Innovation",
-      "culture": "Cultural Preservation",
-      "community": "Community Support"
+    "asean": {
+      "title": "ASEAN Certification Standards",
+      "intro": "Learn about sustainable textile standards in Southeast Asia.",
+      "standards": {
+        "title": "Regional Standards",
+        "content": "We comply with all ASEAN regional environmental standards in textile production, ensuring our products meet or exceed the requirements of all member countries."
+      },
+      "logistics": {
+        "title": "Thai Logistics Solutions",
+        "content": "Our Bangkok-based distribution center offers efficient shipping across Southeast Asia, with special services for ASEAN countries."
+      },
+      "religious": {
+        "title": "Religious-Friendly Materials",
+        "content": "Our production process respects Buddhist principles and offers options that cater to various religious requirements in the region."
+      },
+      "caseStudies": {
+        "title": "Local Case Studies",
+        "thaiUnion": "Collaboration with Thai Union Group",
+        "content": "Learn how we collaborated with Thai Union Group to develop sustainable uniforms made from recycled ocean plastics."
+      }
     },
-    "journey": {
-      "title": "Our Journey",
-      "content": "Founded in 2015, Gleaftex began as a small workshop in Bangkok, combining traditional Thai textile techniques with modern sustainable practices. Today, we serve clients across the ASEAN region, maintaining our commitment to quality and sustainability."
-    }
-  },
-  "products": {
-    "title": "Our Sustainable Products",
-    "categories": {
-      "organic": "Organic Cotton",
-      "recycled": "Recycled Polyester",
-      "bamboo": "Bamboo Fabrics",
-      "hemp": "Hemp Textiles",
-      "blends": "Sustainable Blends"
+    "buddhist": {
+      "title": "Sustainability in Buddhist Culture",
+      "intro": "Explore how Buddhist principles influence our approach to sustainable textiles.",
+      "principles": {
+        "title": "Buddhist Principles in Production",
+        "content": "Our manufacturing process is guided by Buddhist mindfulness and respect for all life, minimizing environmental harm."
+      },
+      "designs": {
+        "title": "Collaboration with Thai Designers",
+        "content": "We collaborate with local Thai designers to create textiles that incorporate traditional Buddhist motifs and patterns using sustainable techniques."
+      }
     },
-    "filters": {
-      "title": "Filter By",
-      "material": "Material",
-      "certification": "Certification",
-      "application": "Application",
-      "weight": "Weight"
+    "tropical": {
+      "title": "Tropical Climate Solutions",
+      "intro": "Specialized fabrics designed for Southeast Asia's weather conditions",
+      "features": {
+        "title": "Climate-Adaptive Features",
+        "moisture": "Enhanced moisture-wicking",
+        "uv": "UV Protection",
+        "breathability": "Excellent breathability",
+        "durability": "Resistance to tropical humidity"
+      }
     },
-    "wholesale": {
-      "title": "Wholesale Inquiries",
-      "content": "Looking for bulk orders? Contact our sales team for competitive wholesale pricing and customized solutions.",
-      "cta": "Request Quote"
-    }
-  },
-  "asean": {
-    "title": "ASEAN Certification Standards",
-    "intro": "Understanding the sustainable textile standards across Southeast Asia.",
-    "standards": {
-      "title": "Regional Standards",
-      "content": "We comply with all ASEAN regional environmental standards for textile production, ensuring our products meet or exceed requirements in all member countries."
+    "payment": {
+      "methods": {
+        "title": "Payment Methods",
+        "promptpay": "PromptPay",
+        "linepay": "LinePay",
+        "international": "International Options"
+      }
     },
-    "logistics": {
-      "title": "Thailand Logistics Solutions",
-      "content": "Our Bangkok-based distribution center offers efficient shipping throughout Southeast Asia, with special rates for ASEAN countries."
-    },
-    "religious": {
-      "title": "Religious-Friendly Materials",
-      "content": "Our production processes respect Buddhist principles and provide options suitable for various religious requirements across the region."
-    },
-    "caseStudies": {
-      "title": "Local Case Studies",
-      "thaiUnion": "Thai Union Collaboration",
-      "content": "Learn how we partnered with Thai Union to develop sustainable uniforms made from recycled ocean plastic."
-    }
-  },
-  "buddhist": {
-    "title": "Sustainability in Buddhist Culture",
-    "intro": "Exploring how Buddhist principles inform our approach to sustainable textiles.",
-    "principles": {
-      "title": "Buddhist Principles in Production",
-      "content": "Our manufacturing processes are guided by Buddhist concepts of mindfulness and respect for all living beings, minimizing harm to the environment."
-    },
-    "designs": {
-      "title": "Thai Designer Collaborations",
-      "content": "We work with local Thai designers to create textiles that incorporate traditional Buddhist motifs and patterns using sustainable techniques."
-    }
-  },
-  "tropical": {
-    "title": "Tropical Climate Solutions",
-    "intro": "Specialized fabrics for Southeast Asian weather conditions",
-    "features": {
-      "title": "Climate-Adapted Features",
-      "moisture": "Enhanced Moisture-Wicking",
-      "uv": "UV Protection",
-      "breathability": "Superior Breathability",
-      "durability": "Tropical Humidity Resistance"
-    }
-  },
-  "payment": {
-    "methods": {
-      "title": "Payment Methods",
-      "promptpay": "PromptPay",
-      "linepay": "LinePay",
-      "international": "International Options"
-    }
-  },
-  "footer": {
-    "company": "Company",
-    "products": "Products",
-    "certifications": "Certifications",
-    "legal": {
-      "title": "Legal",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "pdpa": "PDPA Compliance",
-      "tis": "TIS Certification"
+    "footer": {
+      "company": "Company",
+      "products": "Products",
+      "certifications": "Certifications",
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "pdpa": "PDPA Compliance",
+        "tis": "TIS Certification"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "address": "123 Sukhumvit Road, Bangkok, 10110, Thailand",
+        "phone": "+66 2 123 4567",
+        "email": "info@gleaftex.com"
+      },
+      "copyright": "© 2025 Gleaftex. All rights reserved.",
+      "social": "Follow Us",
+      "contactUs": "Contact Us",
+      "address": "123 Sukhumvit Road, Bangkok, 10110, Thailand"
     },
     "contact": {
-      "title": "Contact Us",
-      "address": "123 Sukhumvit Road, Bangkok, Thailand 10110",
-      "phone": "+66 2 123 4567",
-      "email": "info@gleaftex.com"
+      "form": {
+        "title": "Send Us a Message",
+        "name": "Full Name",
+        "email": "Email",
+        "company": "Company Name (Optional)",
+        "message": "Your Message",
+        "consent": "I agree to the processing of my personal data in accordance with Thai PDPA requirements.",
+        "submit": "Send Message",
+        "success": "Thank you!",
+        "error": "An error occurred while submitting the form. Please try again."
+      },
+      "location": "Our Location",
+      "mapPlaceholder": "Map placeholder - Google Maps integration coming soon"
     },
-    "copyright": "© 2025 Gleaftex. All rights reserved.",
-    "social": "Follow Us"
-  },
-  "contact": {
-    "form": {
-      "title": "Send Us a Message",
-      "name": "Full Name",
-      "email": "Email Address",
-      "company": "Company Name (optional)",
-      "message": "Your Message",
-      "consent": "I agree to the processing of my personal data in accordance with Thailand's PDPA requirements.",
-      "submit": "Send Message",
-      "success": "Thank You!",
-      "error": "There was an error submitting your form. Please try again."
-    }
-  },
-  "legal": {
-    "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last Updated",
-      "overview": "Overview",
-      "overviewContent": "At Gleaftex, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and protect your data when you visit our website or use our services.",
-      "information": "Information We Collect",
-      "usage": "How We Use Your Information",
-      "pdpa": "Compliance with Thailand's Personal Data Protection Act (PDPA)",
-      "cookies": "Cookies and Tracking",
-      "sharing": "Information Sharing",
-      "security": "Data Security",
-      "rights": "Your Rights",
-      "changes": "Changes to this Policy",
-      "contact": "Contact Us"
+    "legal": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated",
+        "overview": "Overview",
+        "overviewContent": "At Gleaftex, we are committed to protecting your privacy and ensuring the security of your personal information. This privacy policy explains how we collect, use, and safeguard your data when you visit our website or use our services.",
+        "information": "Information We Collect",
+        "usage": "How We Use Your Information",
+        "pdpa": "Compliant with Thai Personal Data Protection Act (PDPA)",
+        "cookies": "Cookies and Tracking",
+        "sharing": "Information Sharing",
+        "security": "Data Security",
+        "rights": "Your Rights",
+        "changes": "Policy Changes",
+        "contact": "Contact Us"
+      },
+      "terms": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last Updated",
+        "acceptance": "Acceptance of Terms",
+        "license": "License",
+        "disclaimer": "Disclaimer",
+        "productInfo": "Product Information",
+        "intellectual": "Intellectual Property",
+        "thirdParty": "Third-Party Websites",
+        "applicable": "Applicable Law",
+        "changes": "Changes",
+        "contact": "Contact Us"
+      }
     },
-    "terms": {
-      "title": "Terms of Service",
-      "lastUpdated": "Last Updated",
-      "acceptance": "Acceptance of Terms",
-      "license": "Use License",
-      "disclaimer": "Disclaimer",
-      "productInfo": "Product Information",
-      "intellectual": "Intellectual Property",
-      "thirdParty": "Third Party Websites",
-      "applicable": "Applicable Law",
-      "changes": "Changes",
-      "contact": "Contact Us"
+    "materials": {
+      "title": "Our Eco-Friendly Materials",
+      "intro": "Discover the sustainable materials that make our textiles eco-friendly and high-performance.",
+      "organicCotton": {
+        "title": "Organic Cotton",
+        "content": "Grown without harmful pesticides or synthetic fertilizers, our organic cotton is GOTS certified and sourced from responsible farms in Thailand and neighboring countries."
+      },
+      "recycledPolyester": {
+        "title": "Recycled Polyester",
+        "content": "Made from post-consumer plastic bottles, our recycled polyester helps reduce waste while offering durable and versatile fabric options."
+      },
+      "bamboo": {
+        "title": "Bamboo Fabric",
+        "content": "Using fast-growing bamboo from sustainable sources, our bamboo fabric offers natural antibacterial properties and exceptional softness, perfect for Thailand's tropical climate."
+      },
+      "hemp": {
+        "title": "Hemp Textiles",
+        "content": "As one of the most eco-friendly natural fibers, our hemp textiles require minimal water and no pesticides, producing strong and durable fabrics."
+      },
+      "tropical": {
+        "title": "Tropical Climate Solutions",
+        "content": "Designed specifically for Southeast Asian weather, our fabrics offer moisture-wicking, UV protection, and superior breathability for optimal comfort."
+      }
     }
   }
-}
