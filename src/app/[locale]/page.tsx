@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // 主页组件
 export default function Home() {
@@ -123,6 +124,7 @@ export default function Home() {
 
   return (
     <>
+    <SpeedInsights/>
       {/* 英雄区域 */}
       <section className="relative h-[80vh] min-h-[480px] bg-gradient-to-r from-forest-green to-green-700 text-white">
         <div className="absolute inset-0 opacity-20 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center" />

@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 // 头部组件
@@ -87,8 +88,10 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href={`/${locale}/`} className={`text-xl md:text-2xl font-bold flex items-center ${scrolled ? 'text-forest-green' : 'text-white'}`}>
-            <span className="mr-1 md:mr-2">🍃</span>
-            <span>Gleaftex</span>
+            <span className="mr-1 md:mr-2">
+              <Image src="/images/logo.png" alt="logo" width={40} height={40} />
+            </span>
+            <span>GREENLEAF</span>
           </Link>
 
           {/* 桌面导航 - 使用更紧凑的间距 */}
