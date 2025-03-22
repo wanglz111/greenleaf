@@ -23,19 +23,19 @@ export default function Home() {
     {
       id: 'organic',
       name: t('products.categories.organic'),
-      image: '/images/materials/organic-cotton.jpg',
+      image: '/images/materials/cotton_field.webp',
       description: t('materials.organicCotton.content').substring(0, 120) + '...'
     },
     {
       id: 'recycled',
       name: t('products.categories.recycled'),
-      image: '/images/materials/recycled-polyester.jpg',
+      image: '/images/materials/polyester.jpeg',
       description: t('materials.recycledPolyester.content').substring(0, 120) + '...'
     },
     {
       id: 'bamboo',
       name: t('products.categories.bamboo'),
-      image: '/images/materials/bamboo-fabric.jpg',
+      image: '/images/materials/bamboo.jpeg',
       description: t('materials.bamboo.content').substring(0, 120) + '...'
     }
   ]);
@@ -153,8 +153,8 @@ export default function Home() {
                 {featuredMaterials.map((material) => (
                   <div key={material.id} className="scroll-item">
                     <div className="mobile-card h-full flex flex-col">
-                      <div className="h-36 relative bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                        <span className="text-gray-400">Image: {material.name}</span>
+                      <div className="h-36 relative bg-gray-200 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                        <Image src={material.image} alt={material.name} width={100} height={100} className="object-cover w-full h-full" />
                       </div>
                       <h3 className="mobile-subtitle text-forest-green mb-2">{material.name}</h3>
                       <p className="text-gray-600 mb-4 line-clamp-3 text-sm flex-grow">{material.description}</p>
@@ -183,8 +183,8 @@ export default function Home() {
           <div className="hidden sm:grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {featuredMaterials.map((material) => (
               <div key={material.id} className="mobile-card transition-transform hover:scale-[1.02]">
-                <div className="h-48 relative bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-gray-400">Image: {material.name}</span>
+                <div className="h-48 relative bg-gray-200 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                  <Image src={material.image} alt={material.name} width={200} height={200} className="object-cover w-full h-full" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-forest-green">{material.name}</h3>
                 <p className="text-gray-600 mb-4">{material.description}</p>
@@ -267,10 +267,8 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
             {certifications.map((cert) => (
               <div key={cert.id} className="flex flex-col items-center">
-                <div className="w-16 h-16 sm:w-24 sm:h-24 mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center">
-                  <span className="text-gray-400 text-xs sm:text-base">
-                    <Image src={cert.icon} alt={cert.name} width={100} height={100} />
-                  </span>
+                <div className="w-16 h-16 sm:w-24 sm:h-24 mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden">
+                  <Image src={cert.icon} alt={cert.name} width={80} height={80} className="object-contain" />
                 </div>
                 <h3 className="text-sm sm:text-lg font-medium text-center text-gray-800">{cert.name}</h3>
               </div>
