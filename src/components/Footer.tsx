@@ -133,8 +133,10 @@ export default function Footer() {
             {/* 公司信息 */}
             <div className="col-span-3">
               <h3 className="text-lg font-bold mb-3">
-                <span className="mr-2">🍃</span>
-                Gleaftex
+                <span className="mr-2">
+                  <img src="/images/logo.png" alt="logo" width={40} height={40} />
+                </span>
+                GREENLEAF
               </h3>
               <p className="text-gray-300 text-sm mb-3">
                 {t('footer.address')}
