@@ -182,7 +182,7 @@ export default function CertificationsPage() {
                     </div>
                     <ul className="space-y-2 text-gray-700">
                       {country.standards && Array.isArray(country.standards) && country.standards.length > 0 ? (
-                        country.standards.map((standard) => (
+                        country.standards.map((standard: string) => (
                           <li key={standard} className="flex items-center">
                             <span className="text-thai-gold mr-2">✓</span>
                             {standard}
