@@ -181,7 +181,7 @@ export default function Footer() {
               </h3>
               <div className="text-xs text-gray-300">
                 <p>info@gleaftex.com</p>
-                <p className="mt-1">+66 2 123 4567</p>
+                <p className="mt-1">+86 13407586044</p>
               </div>
             </div>
           </div>

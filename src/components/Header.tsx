@@ -86,7 +86,7 @@ export default function Header() {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className={`text-xl md:text-2xl font-bold flex items-center ${scrolled ? 'text-forest-green' : 'text-white'}`}>
+          <Link href={`/${locale}/`} className={`text-xl md:text-2xl font-bold flex items-center ${scrolled ? 'text-forest-green' : 'text-white'}`}>
             <span className="mr-1 md:mr-2">🍃</span>
             <span>Gleaftex</span>
           </Link>
@@ -96,7 +96,7 @@ export default function Header() {
             {navLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                href={`/${locale}${link.href}`}
                 className={`whitespace-nowrap transition-colors px-2 py-1 text-sm lg:text-base ${
                   pathname === `/${locale}${link.href}` || (link.href === '/' && pathname === `/${locale}`)
                     ? `font-semibold ${scrolled ? 'text-forest-green' : 'text-white'}`
