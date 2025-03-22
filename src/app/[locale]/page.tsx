@@ -42,10 +42,10 @@ export default function Home() {
 
   // 认证标准
   const certifications = [
-    { id: 'asean', name: t('home.certifications.asean'), icon: '/images/certifications/asean.svg' },
-    { id: 'gots', name: t('home.certifications.gots'), icon: '/images/certifications/gots.svg' },
-    { id: 'tis', name: t('home.certifications.tis'), icon: '/images/certifications/tis.svg' },
-    { id: 'oeko', name: t('home.certifications.oeko'), icon: '/images/certifications/oeko.svg' }
+    { id: 'grs', name: t('home.certifications.grs'), icon: '/images/certifications/GlobalRecycled.webp' },
+    { id: 'gots', name: t('home.certifications.gots'), icon: '/images/certifications/logo-gots.webp' },
+    // { id: 'tis', name: t('home.certifications.tis'), icon: '/images/certifications/tis.svg' },
+    { id: 'oeko', name: t('home.certifications.oeko'), icon: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Oeko_tex_-_umbrella_brand_-_11_2022.svg' }
   ];
 
   // 支付方式
@@ -150,11 +150,11 @@ export default function Home() {
           <div className="sm:hidden mb-4">
             <div className="mobile-scroll-container" ref={materialScrollRef}>
               <div className="scroll-items">
-            {featuredMaterials.map((material) => (
+                {featuredMaterials.map((material) => (
                   <div key={material.id} className="scroll-item">
                     <div className="mobile-card h-full flex flex-col">
                       <div className="h-36 relative bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-gray-400">Image: {material.name}</span>
+                        <span className="text-gray-400">Image: {material.name}</span>
                       </div>
                       <h3 className="mobile-subtitle text-forest-green mb-2">{material.name}</h3>
                       <p className="text-gray-600 mb-4 line-clamp-3 text-sm flex-grow">{material.description}</p>
@@ -172,9 +172,8 @@ export default function Home() {
               {featuredMaterials.map((_, index) => (
                 <span
                   key={index}
-                  className={`inline-block h-2 rounded-full transition-all duration-300 ${
-                    index === currentMaterialIndex ? 'w-6 bg-forest-green' : 'w-2 bg-gray-300'
-                  }`}
+                  className={`inline-block h-2 rounded-full transition-all duration-300 ${index === currentMaterialIndex ? 'w-6 bg-forest-green' : 'w-2 bg-gray-300'
+                    }`}
                 ></span>
               ))}
             </div>
@@ -187,11 +186,11 @@ export default function Home() {
                 <div className="h-48 relative bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
                   <span className="text-gray-400">Image: {material.name}</span>
                 </div>
-                  <h3 className="text-xl font-semibold mb-2 text-forest-green">{material.name}</h3>
-                  <p className="text-gray-600 mb-4">{material.description}</p>
+                <h3 className="text-xl font-semibold mb-2 text-forest-green">{material.name}</h3>
+                <p className="text-gray-600 mb-4">{material.description}</p>
                 <Link href={`/fabric#${material.id.replace('organic', 'organic-cotton').replace('recycled', 'recycled-polyester').replace('bamboo', 'bamboo-fabric')}`} className="touch-link text-forest-green font-medium inline-flex items-center">
                   {t('home.about.learnMore')} <span className="ml-1">→</span>
-                  </Link>
+                </Link>
               </div>
             ))}
           </div>
@@ -214,29 +213,9 @@ export default function Home() {
             <p className="text-lg text-gray-700 mb-6 sm:mb-8">
               {t('home.about.content')}
             </p>
-            <Link href="/about" className="mobile-btn btn-primary max-w-xs mx-auto">
+            <Link href="/about" className="mobile-btn btn-secondary max-w-xs mx-auto">
               {t('home.about.learnMore')}
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* 认证标准 */}
-      <section className="py-12 sm:py-16 bg-white">
-        <div className="mobile-container">
-          <h2 className="mobile-title text-center mb-8 sm:mb-12 text-forest-green thai-border pb-4">
-            {t('home.certifications.title')}
-          </h2>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
-            {certifications.map((cert) => (
-              <div key={cert.id} className="flex flex-col items-center">
-                <div className="w-16 h-16 sm:w-24 sm:h-24 mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center">
-                  <span className="text-gray-400 text-xs sm:text-base">Logo: {cert.name}</span>
-                </div>
-                <h3 className="text-sm sm:text-lg font-medium text-center text-gray-800">{cert.name}</h3>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -271,9 +250,31 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-8 sm:mt-10">
-            <Link href="/buddhist" className="mobile-btn btn-secondary max-w-xs mx-auto">
+            <Link href="/sustainability" className="mobile-btn btn-primary max-w-xs mx-auto">
               {t('home.about.learnMore')}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 认证标准 */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="mobile-container">
+          <h2 className="mobile-title text-center mb-8 sm:mb-12 text-forest-green thai-border pb-4">
+            {t('home.certifications.title')}
+          </h2>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
+            {certifications.map((cert) => (
+              <div key={cert.id} className="flex flex-col items-center">
+                <div className="w-16 h-16 sm:w-24 sm:h-24 mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center">
+                  <span className="text-gray-400 text-xs sm:text-base">
+                    <Image src={cert.icon} alt={cert.name} width={100} height={100} />
+                  </span>
+                </div>
+                <h3 className="text-sm sm:text-lg font-medium text-center text-gray-800">{cert.name}</h3>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -330,9 +331,8 @@ export default function Home() {
               {[0, 1, 2].map((index) => (
                 <span
                   key={index}
-                  className={`inline-block h-2 rounded-full transition-all duration-300 ${
-                    index === currentAseanIndex ? 'w-6 bg-forest-green' : 'w-2 bg-gray-300'
-                  }`}
+                  className={`inline-block h-2 rounded-full transition-all duration-300 ${index === currentAseanIndex ? 'w-6 bg-forest-green' : 'w-2 bg-gray-300'
+                    }`}
                 ></span>
               ))}
             </div>
@@ -367,7 +367,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-8 sm:mt-10">
-            <Link href="/asean" className="mobile-btn btn-primary max-w-xs mx-auto">
+            <Link href="/certifications" className="mobile-btn btn-secondary max-w-xs mx-auto">
               {t('home.about.learnMore')}
             </Link>
           </div>
@@ -389,7 +389,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-    </div>
+        </div>
       </section>
     </>
   );
