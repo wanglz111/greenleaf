@@ -1,8 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // 定义类型
 type CertificationInfo = {

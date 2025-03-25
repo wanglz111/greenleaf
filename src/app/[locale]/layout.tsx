@@ -36,17 +36,21 @@ export async function generateMetadata(props: RootLayoutProps) {
     icons: {
       icon: '/icons8-枫叶-bubbles-96.png',
     },
-    viewport: {
-      width: 'device-width',
-      initialScale: 1,
-      maximumScale: 5,
-      viewportFit: 'cover',
-      themeColor: '#3A5F0B',
-    },
     appleWebApp: {
       capable: true,
       statusBarStyle: 'black-translucent',
     },
+  };
+}
+
+// 生成viewport配置
+export async function generateViewport(props: RootLayoutProps) {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    viewportFit: 'cover',
+    themeColor: '#3A5F0B',
   };
 }
 
