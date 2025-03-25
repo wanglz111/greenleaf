@@ -172,7 +172,7 @@ export default function Home() {
                       </div>
                       <h3 className="mobile-subtitle text-forest-green mb-2">{material.name}</h3>
                       <p className="text-gray-600 mb-4 line-clamp-3 text-sm flex-grow">{material.description}</p>
-                      <Link href={`/fabric#${material.id.replace('organic', 'organic-cotton').replace('recycled', 'recycled-polyester').replace('bamboo', 'bamboo-fabric')}`} className="touch-link text-forest-green font-medium inline-flex items-center mt-auto">
+                      <Link href={`/fabric#${material.id.replace('organic', 'organic-cotton').replace('recycled', 'recycled-polyester').replace('bamboo', 'bamboo-fabric').replace('soy', 'soy-fabric').replace('linen', 'linen-fabric')}`} className="touch-link text-forest-green font-medium inline-flex items-center mt-auto">
                         {t('home.about.learnMore')} <span className="ml-1">→</span>
                       </Link>
                     </div>
@@ -202,7 +202,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-forest-green">{material.name}</h3>
                 <p className="text-gray-600 mb-4">{material.description}</p>
-                <Link href={`/fabric#${material.id.replace('organic', 'organic-cotton').replace('recycled', 'recycled-polyester').replace('bamboo', 'bamboo-fabric')}`} className="touch-link text-forest-green font-medium inline-flex items-center">
+                <Link href={`/fabric#${material.id.replace('organic', 'organic-cotton').replace('recycled', 'recycled-polyester').replace('bamboo', 'bamboo-fabric').replace('soy', 'soy-fabric').replace('linen', 'linen-fabric')}`} className="touch-link text-forest-green font-medium inline-flex items-center">
                   {t('home.about.learnMore')} <span className="ml-1">→</span>
                 </Link>
               </div>
