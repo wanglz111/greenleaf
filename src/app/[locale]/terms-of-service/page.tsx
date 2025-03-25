@@ -28,7 +28,7 @@ export default function TermsOfService() {
           <div className="prose prose-lg max-w-none">
             <h2>{t('legal.terms.acceptance')}</h2>
             <p>
-              Welcome to the Gleaftex website. These terms and conditions outline the rules and regulations for the use of our website. By accessing this site, we assume you accept these terms and conditions. Do not continue to use Gleaftex if you do not agree to all the terms and conditions stated on this page.
+              Welcome to the Greenleaf website. These terms and conditions outline the rules and regulations for the use of our website. By accessing this site, we assume you accept these terms and conditions. Do not continue to use Gleaftex if you do not agree to all the terms and conditions stated on this page.
             </p>
 
             <h2>{t('legal.terms.license')}</h2>

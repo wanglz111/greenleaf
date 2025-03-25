@@ -24,7 +24,7 @@ export default function TISCertification() {
           <div className="prose prose-lg max-w-none">
             <h2>Thai Industrial Standards (TIS) Certification</h2>
             <p>
-              At Gleaftex, we are proud to adhere to the Thai Industrial Standards (TIS) established by the Thai Industrial Standards Institute (TISI). This commitment ensures that our textile products meet the highest quality and safety standards recognized in Thailand and throughout the ASEAN region.
+              At Greenleaf, we are proud to adhere to the Thai Industrial Standards (TIS) established by the Thai Industrial Standards Institute (TISI). This commitment ensures that our textile products meet the highest quality and safety standards recognized in Thailand and throughout the ASEAN region.
             </p>
 
             <h2>What is TIS Certification?</h2>
@@ -34,7 +34,7 @@ export default function TISCertification() {
 
             <h2>Our TIS Certifications</h2>
             <p>
-              Gleaftex has obtained the following TIS certifications for our textile products:
+              Greenleaf has obtained the following TIS certifications for our textile products:
             </p>
             <ul>
               <li><strong>TIS 121-2553 (2010):</strong> Standard for Cotton Fabrics</li>
@@ -57,7 +57,7 @@ export default function TISCertification() {
 
             <h2>TIS Certification Process</h2>
             <p>
-              To obtain and maintain our TIS certifications, Gleaftex undergoes a rigorous process that includes:
+              To obtain and maintain our TIS certifications, Greenleaf undergoes a rigorous process that includes:
             </p>
             <ol>
               <li><strong>Documentation Review:</strong> TISI examines our production processes and quality management systems</li>
@@ -91,7 +91,7 @@ export default function TISCertification() {
 
             <h2>Our Commitment to Standards</h2>
             <p>
-              Gleaftex is committed to maintaining and exceeding the requirements of our TIS certifications. We continuously improve our processes, invest in new technologies, and train our staff to ensure compliance with these important standards.
+              Greenleaf is committed to maintaining and exceeding the requirements of our TIS certifications. We continuously improve our processes, invest in new technologies, and train our staff to ensure compliance with these important standards.
             </p>
 
             <h2>Contact Information</h2>

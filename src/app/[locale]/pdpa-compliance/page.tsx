@@ -24,15 +24,15 @@ export default function PDPACompliance() {
           <div className="prose prose-lg max-w-none">
             <h2>Thailand Personal Data Protection Act (PDPA) Compliance</h2>
             <p>
-              At Gleaftex, we are committed to protecting your personal data and complying with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA"). This document outlines how we adhere to the PDPA requirements and respect your data protection rights.
+              At Greenleaf, we are committed to protecting your personal data and complying with Thailand's Personal Data Protection Act B.E. 2562 (2019) ("PDPA"). This document outlines how we adhere to the PDPA requirements and respect your data protection rights.
             </p>
 
             <h2>1. Data Controller Information</h2>
             <p>
-              Gleaftex Co., Ltd. acts as the data controller for personal information collected through our website, in-store interactions, and other business operations. Our Data Protection Officer can be contacted at:
+              Greenleaf textile Co., Ltd. acts as the data controller for personal information collected through our website, in-store interactions, and other business operations. Our Data Protection Officer can be contacted at:
             </p>
             <p>
-              Email: dpo@gleaftex.com<br />
+              Email: info@gleaftex.com<br />
               Address: {t('footer.contact.address')}<br />
               Phone: {t('footer.contact.phone')}
             </p>

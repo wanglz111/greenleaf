@@ -72,7 +72,7 @@ export default function Footer() {
           <div className="mb-6 pb-4 border-b border-gray-700">
             <h3 className="text-lg font-bold mb-2">
               <span className="mr-2">🍃</span>
-              Gleaftex
+              Greenleaf
             </h3>
             <p className="text-gray-300 text-sm mb-3">
               {t('footer.address')}
