@@ -17,7 +17,8 @@ export default function MobileNav() {
     { href: '/', label: t('nav.home'), icon: '🏠' },
     { href: '/about', label: t('nav.about'), icon: '📖' },
     { href: '/products', label: t('nav.products'), icon: '🧵' },
-    { href: '/certifications', label: t('nav.certifications'), icon: '🏆' },
+    // { href: '/certifications', label: t('nav.certifications'), icon: '🏆' },
+    { href: '/fabric', label: t('nav.fabric'), icon: '🧶' },
     { href: '/sustainability', label: t('nav.sustainability'), icon: '🌱' },
     { href: '/contact', label: t('nav.contact'), icon: '📞' }
   ];
