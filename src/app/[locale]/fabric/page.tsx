@@ -59,6 +59,36 @@ export default function EcoFabricsPage() {
       image: '/images/materials/bamboo-fabric.jpg',
       icon: '🎋',
       certifications: ['FSC', 'OEKO-TEX']
+    },
+    {
+      id: 'soy-fabric',
+      name: t('fabric.soyFabric.name'),
+      subtitle: t('fabric.soyFabric.subtitle'),
+      description: t('fabric.soyFabric.description'),
+      features: Array.isArray(t.raw('fabric.soyFabric.features'))
+        ? t.raw('fabric.soyFabric.features') as FabricFeature[]
+        : [] as FabricFeature[],
+      applications: Array.isArray(t.raw('fabric.soyFabric.applications'))
+        ? t.raw('fabric.soyFabric.applications') as FabricApplication[]
+        : [] as FabricApplication[],
+      image: '/images/materials/soy_fabric.jpg',
+      icon: '🌿',
+      certifications: ['OEKO-TEX']
+    },
+    {
+      id: 'linen-fabric',
+      name: t('fabric.linenFabric.name'),
+      subtitle: t('fabric.linenFabric.subtitle'),
+      description: t('fabric.linenFabric.description'),
+      features: Array.isArray(t.raw('fabric.linenFabric.features'))
+        ? t.raw('fabric.linenFabric.features') as FabricFeature[]
+        : [] as FabricFeature[],
+      applications: Array.isArray(t.raw('fabric.linenFabric.applications'))
+        ? t.raw('fabric.linenFabric.applications') as FabricApplication[]
+        : [] as FabricApplication[],
+      image: '/images/materials/linen.webp',
+      icon: '🌾',
+      certifications: ['OEKO-TEX']
     }
   ];
 
@@ -102,6 +132,20 @@ export default function EcoFabricsPage() {
                     ) : fabric.id === 'bamboo-fabric' ? (
                       <Image
                         src="/images/bamboo.jpg"
+                        alt={fabric.name}
+                        fill
+                        className="object-cover"
+                      />
+                    ) : fabric.id === 'soy-fabric' ? (
+                      <Image
+                        src="/images/materials/soy_fabric.jpg"
+                        alt={fabric.name}
+                        fill
+                        className="object-cover"
+                      />
+                    ) : fabric.id === 'linen-fabric' ? (
+                      <Image
+                        src="/images/materials/linen.webp"
                         alt={fabric.name}
                         fill
                         className="object-cover"

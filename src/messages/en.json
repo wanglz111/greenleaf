@@ -75,6 +75,8 @@
         "organic": "Organic Cotton",
         "recycled": "Recycled Polyester",
         "bamboo": "Bamboo Fabric",
+        "soy": "Soy Protein Fiber",
+        "linen": "Linen Fiber",
         "hemp": "Hemp Textiles",
         "blends": "Sustainable Blends"
       },
@@ -142,56 +144,92 @@
       "commonApplications": "Common Applications",
       "organicCotton": {
         "name": "Organic Cotton",
-        "subtitle": "Sustainable and Skin-Friendly",
-        "description": "GREENLEAF upholds the concept of green environmental protection, carefully cultivating organic cotton in the unique ecological fields of northern Thailand. All raw materials reject chemical pesticides and fertilizers, relying solely on natural sunlight, rain, and organic compost to nourish the cotton, ensuring each fiber retains the pure and gentle essence of nature. Through refined processing, the organic cotton fibers exhibit excellent qualities of natural softness, breathability, and skin-friendliness, with good moisture absorption and wrinkle resistance, making garments more comfortable and durable. The entire production process strictly implements energy conservation and green closed-loop management, with each product passing international environmental certification tests, bringing consumers a healthy and fashionable wearing experience. Wearing GREENLEAF organic cotton products not only allows one to experience the beauty of nature but also actively participates in global ecological protection, jointly promoting sustainable development and building a pure and harmonious future.",
+        "subtitle": "Eco-friendly pioneer, gentle care for your skin",
+        "description": "GREENLEAF organic cotton originates from the pristine ecological farmlands of Northern Thailand. Entirely free from chemical additives, it is cultivated using natural sunlight, rainwater, and organic compost. Our innovative eco-farming techniques preserve the natural purity and softness of cotton fibers while enhancing their durability and comfort through advanced craftsmanship. Every product is certified by the international GOTS standard, embodying a lifestyle of health, fashion, and sustainability—allowing you to experience the perfect blend of nature’s gift and eco-friendly aesthetics.",
         "features": [
-          "Free from harmful chemicals and pesticides",
-          "Uses 71% less water than conventional cotton",
-          "Reduces soil erosion and improves biodiversity",
-          "GOTS certified production process",
-          "Exceptionally soft, ideal for sensitive skin"
+          "Zero chemical pesticide residue, pure and natural",
+          "Up to 70% water resource savings",
+          "Improves soil ecology and promotes biodiversity",
+          "Certified by international GOTS standards",
+          "Ultra-soft and skin-friendly, suitable for sensitive skin"
         ],
         "applications": [
-          "Apparel and fashion items",
+          "High-end fashion and casual wear",
           "Home textiles and bedding",
-          "Infant products",
-          "Hospital textiles and uniforms"
+          "Baby and maternity products",
+          "Eco-friendly medical and rehabilitation products"
         ]
       },
       "recycledPolyester": {
         "name": "Recycled Polyester",
-        "subtitle": "From Plastic Bottles to Premium Fabrics",
-        "description": "GREENLEAF leverages cutting-edge environmental technology to efficiently transform waste plastic into high-quality recycled polyester fibers, injecting new green vitality into the textile industry. Selected raw materials undergo strict purification, modification, and fine processing, ensuring the recycled polyester fibers maintain excellent wear resistance and elasticity while presenting vibrant, long-lasting colors that meet modern clothing's dual requirements for fashion and functionality. In the production process, we focus on reducing energy consumption and carbon emissions, achieving waste recycling and reuse, effectively reducing environmental pollution, and practicing sustainable development principles. All products have obtained international environmental certifications, ensuring no harmful residues and providing safe, healthy wearing experiences. Wearing GREENLEAF recycled polyester products represents a firm commitment to an eco-friendly lifestyle, jointly opening a new chapter in a low-carbon, green future.",
+        "subtitle": "From waste to fashion, shaping a sustainable future",
+        "description": "GREENLEAF utilizes cutting-edge eco-friendly technology to transform discarded plastic bottles into high-quality recycled polyester fibers. Through meticulous purification, modification, and precision processing, we provide fabrics with exceptional durability, elasticity, and long-lasting color vibrancy. Our innovative production process significantly reduces energy consumption and carbon emissions, ensuring efficient resource recycling. Every stage of production adheres to strict environmental certifications, offering you a safe, healthy, and futuristic green fashion experience.",
         "features": [
-          "Made from post-consumer plastic bottles (PET)",
-          "Reduces plastic waste and petroleum consumption",
-          "Excellent durability and color fastness",
-          "Moisture-wicking and quick-drying properties",
-          "Can be blended with natural fibers to enhance performance"
+          "Made from discarded PET bottles for resource regeneration",
+          "Significantly reduces energy consumption and carbon emissions",
+          "Exceptional durability and colorfastness",
+          "Outstanding moisture-wicking and quick-dry properties",
+          "Innovative blending technology enhances overall quality"
         ],
         "applications": [
-          "Activewear and sportswear",
-          "Outdoor and travel apparel",
+          "Sportswear and outdoor gear",
           "Corporate uniforms and workwear",
-          "Bags, backpacks, and accessories"
+          "Fashion bags and backpacks",
+          "Avant-garde casual and eco-friendly designs"
         ]
       },
       "bambooFabric": {
         "name": "Bamboo Fabric",
-        "subtitle": "Natural Comfort for Tropical Climate",
-        "description": "GREENLEAF draws upon the abundant natural resources and green wisdom of northern Thailand, carefully selecting bamboo from natural bamboo forests and transforming it into high-quality bamboo fiber fabric through advanced technology. The fabric fully retains bamboo's natural antibacterial, breathable, temperature-regulating, and silky properties while significantly reducing water consumption and chemical additives through eco-friendly processing, truly achieving green manufacturing. The product features fine texture and natural luster, with excellent moisture-wicking properties, providing wearers with healthy and comfortable experiences. The entire process strictly follows international environmental standards, with every step carefully monitored to ensure product safety and harmlessness. Wearing GREENLEAF bamboo fiber clothing allows one to experience the beauty of natural freshness while showcasing fashion taste and environmental consciousness, jointly moving towards a low-carbon, sustainable future.",
+        "subtitle": "Natural rhythm, a fusion of health and fashion",
+        "description": "Leveraging the abundant bamboo forests of Northern Thailand, GREENLEAF uses innovative processes to extract high-quality fibers from natural bamboo, preserving its antibacterial, breathable, and temperature-regulating properties. Advanced eco-friendly processing techniques significantly reduce water consumption and chemical usage, resulting in fabrics with a silky sheen and elegant texture. These products not only provide superior moisture-wicking and UV protection but are also crafted under strict environmental supervision, creating a perfect fusion of fashion innovation and healthy living.",
         "features": [
-          "Naturally antibacterial and hypoallergenic",
-          "Outstanding breathability and thermal regulation",
-          "Absorbs 3-4 times more moisture than cotton",
-          "UV protection",
-          "Biodegradable at end of life"
+          "Naturally antibacterial, protecting every inch of your skin",
+          "Superior breathability and temperature regulation",
+          "Highly efficient moisture-wicking, keeping you fresh",
+          "Built-in UV protection, shielding against harmful rays",
+          "Fully biodegradable throughout its lifecycle"
         ],
         "applications": [
-          "Luxury apparel and lingerie",
-          "Towels and bath textiles",
-          "Bedding and sleepwear",
-          "Medical and therapeutic textiles"
+          "High-end lingerie and fashion apparel",
+          "Home textiles and bath essentials",
+          "Functional sportswear and outdoor clothing",
+          "Medical and professional protective wear"
+        ]
+      },
+      "soyFabric": {
+        "name": "Soy Fabric",
+        "subtitle": "The fiber of the future, redefining plant-based protein",
+        "description": "Through cutting-edge technology, GREENLEAF transforms soy protein into an ultra-soft fiber, combining natural nutrients with superior comfort. Our soy fabric not only retains the rich amino acids and antibacterial properties of soy but also features excellent breathability, moisture absorption, and odor resistance thanks to an eco-friendly production process. Our innovative low-carbon manufacturing and non-toxic production make each product a perfect choice for sustainable fashion and healthy living.",
+        "features": [
+          "Rich in natural amino acids, nourishing the skin",
+          "Superior breathability and strong moisture absorption",
+          "Ultra-soft, perfect for sensitive skin",
+          "Innovative low-carbon eco-friendly manufacturing",
+          "Naturally antibacterial and odor-resistant, keeping you fresh"
+        ],
+        "applications": [
+          "Luxury lingerie and sleepwear",
+          "Athleisure and casual wear",
+          "Home textiles and decorative fabrics",
+          "Medical health and functional clothing"
+        ]
+      },
+      "linenFabric": {
+        "name": "Linen Fabric",
+        "subtitle": "Timeless elegance, naturally sustainable",
+        "description": "GREENLEAF selects premium flax from Northern Thailand, blending traditional craftsmanship with modern technology to create fabrics that retain a natural rustic texture while exuding a refined sheen. Upholding energy efficiency and low-carbon sustainability throughout production, each step is carefully controlled, from field to fabric. These fabrics not only offer exceptional breathability and moisture absorption but also boast wrinkle resistance and durability, making them the perfect choice for those who seek quality and timeless fashion.",
+        "features": [
+          "Excellent breathability for a cool and comfortable feel",
+          "Naturally antibacterial, maintaining fabric purity",
+          "Outstanding wrinkle resistance and durability",
+          "Fully traceable low-carbon, eco-friendly production",
+          "Delicate natural sheen, showcasing unique texture"
+        ],
+        "applications": [
+          "Business attire and high-end casual wear",
+          "Home textiles and artistic home decor",
+          "Luxury fashion and custom designs",
+          "Eco-friendly luxury lifestyle series"
         ]
       }
     },
@@ -542,6 +580,14 @@
       "bamboo": {
         "title": "Bamboo Fabric",
         "content": "GREENLEAF leverages Northern Thailand's rich natural resources and green wisdom, carefully selecting bamboo from natural forests and transforming it into high-quality bamboo fiber fabric through advanced technology. This fabric fully retains bamboo's natural antibacterial, breathable, temperature-regulating, and smooth properties, while significantly reducing water consumption and chemical additives through eco-friendly processing."
+      },
+      "soyFabric": {
+        "title": "Soy Fiber",
+        "content": "GREENLEAF is committed to exploring new natural and eco-friendly materials, transforming soy protein into delicate and soft fibers through advanced technology, creating unique soy fiber fabric. This fabric, made from soybeans, fully preserves the natural nutritional components of soy, offering excellent moisture absorption and breathability, along with natural antibacterial and deodorizing properties, ensuring wearers enjoy healthy and comfortable experiences in various climates. In our production process, we strictly follow green manufacturing standards, eliminating harmful chemical additives, striving to achieve low-carbon and eco-friendly practices from raw material collection to finished product manufacturing, minimizing resource waste and environmental pollution."
+      },
+      "linenFabric": {
+        "title": "Linen Fabric",
+        "content": "GREENLEAF selects premium flax from bountiful harvests with unique environmental concepts, creating natural, cool-to-touch linen fabric through the perfect fusion of traditional craftsmanship and modern technology. Linen fiber, a gift from nature, possesses excellent breathability, moisture absorption, and natural antibacterial properties, maintaining its original rustic texture while displaying soft and delicate natural luster. The entire production process adheres to energy-saving, emission-reduction, and low-carbon environmental principles, strictly controlling each stage from raw material cultivation to fabric processing, ensuring products achieve the perfect balance between comfort, health, and durability."
       },
       "hemp": {
         "title": "Hemp Textiles",

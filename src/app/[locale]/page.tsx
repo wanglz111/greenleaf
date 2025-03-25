@@ -36,8 +36,20 @@ export default function Home() {
     {
       id: 'bamboo',
       name: t('products.categories.bamboo'),
-      image: '/images/materials/bamboo.jpeg',
+      image: '/images/materials/bamboo.jpg',
       description: t('materials.bamboo.content').substring(0, 120) + '...'
+    },
+    {
+      id: 'soy',
+      name: t('products.categories.soy'),
+      image: '/images/materials/soy_fabric.jpg',
+      description: t('materials.soyFabric.content').substring(0, 120) + '...'
+    },
+    {
+      id: 'linen',
+      name: t('products.categories.linen'),
+      image: '/images/materials/linen.webp',
+      description: t('materials.linenFabric.content').substring(0, 120) + '...'
     }
   ]);
 
