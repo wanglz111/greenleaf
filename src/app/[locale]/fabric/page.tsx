@@ -101,7 +101,7 @@ export default function EcoFabricsPage() {
                       />
                     ) : fabric.id === 'bamboo-fabric' ? (
                       <Image
-                        src="/images/bamboo.jpeg"
+                        src="/images/bamboo.jpg"
                         alt={fabric.name}
                         fill
                         className="object-cover"

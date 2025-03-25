@@ -143,7 +143,7 @@
       "organicCotton": {
         "name": "Organic Cotton",
         "subtitle": "Sustainable and Skin-Friendly",
-        "description": "Organic cotton is grown without harmful pesticides, synthetic fertilizers, or GMOs. At Gleaftex, we source organic cotton from certified farms in northern Thailand and neighboring countries, ensuring full traceability from field to fabric.",
+        "description": "GREENLEAF upholds the concept of green environmental protection, carefully cultivating organic cotton in the unique ecological fields of northern Thailand. All raw materials reject chemical pesticides and fertilizers, relying solely on natural sunlight, rain, and organic compost to nourish the cotton, ensuring each fiber retains the pure and gentle essence of nature. Through refined processing, the organic cotton fibers exhibit excellent qualities of natural softness, breathability, and skin-friendliness, with good moisture absorption and wrinkle resistance, making garments more comfortable and durable. The entire production process strictly implements energy conservation and green closed-loop management, with each product passing international environmental certification tests, bringing consumers a healthy and fashionable wearing experience. Wearing GREENLEAF organic cotton products not only allows one to experience the beauty of nature but also actively participates in global ecological protection, jointly promoting sustainable development and building a pure and harmonious future.",
         "features": [
           "Free from harmful chemicals and pesticides",
           "Uses 71% less water than conventional cotton",
@@ -161,7 +161,7 @@
       "recycledPolyester": {
         "name": "Recycled Polyester",
         "subtitle": "From Plastic Bottles to Premium Fabrics",
-        "description": "Our recycled polyester transforms plastic waste into high-performance textiles. Each kilogram of recycled polyester fabric reuses approximately 30 plastic bottles that would otherwise end up in landfills or the ocean. Its production process uses 59% less energy than manufacturing new polyester.",
+        "description": "GREENLEAF leverages cutting-edge environmental technology to efficiently transform waste plastic into high-quality recycled polyester fibers, injecting new green vitality into the textile industry. Selected raw materials undergo strict purification, modification, and fine processing, ensuring the recycled polyester fibers maintain excellent wear resistance and elasticity while presenting vibrant, long-lasting colors that meet modern clothing's dual requirements for fashion and functionality. In the production process, we focus on reducing energy consumption and carbon emissions, achieving waste recycling and reuse, effectively reducing environmental pollution, and practicing sustainable development principles. All products have obtained international environmental certifications, ensuring no harmful residues and providing safe, healthy wearing experiences. Wearing GREENLEAF recycled polyester products represents a firm commitment to an eco-friendly lifestyle, jointly opening a new chapter in a low-carbon, green future.",
         "features": [
           "Made from post-consumer plastic bottles (PET)",
           "Reduces plastic waste and petroleum consumption",
@@ -178,8 +178,8 @@
       },
       "bambooFabric": {
         "name": "Bamboo Fabric",
-        "subtitle": "Natural Comfort for Tropical Climates",
-        "description": "Bamboo is one of nature's most sustainable resources, growing up to one meter per day without replanting. Our bamboo fabric uses a closed-loop lyocell process, transforming bamboo pulp into luxurious, soft textiles while recovering 99% of the solvents used in production.",
+        "subtitle": "Natural Comfort for Tropical Climate",
+        "description": "GREENLEAF draws upon the abundant natural resources and green wisdom of northern Thailand, carefully selecting bamboo from natural bamboo forests and transforming it into high-quality bamboo fiber fabric through advanced technology. The fabric fully retains bamboo's natural antibacterial, breathable, temperature-regulating, and silky properties while significantly reducing water consumption and chemical additives through eco-friendly processing, truly achieving green manufacturing. The product features fine texture and natural luster, with excellent moisture-wicking properties, providing wearers with healthy and comfortable experiences. The entire process strictly follows international environmental standards, with every step carefully monitored to ensure product safety and harmlessness. Wearing GREENLEAF bamboo fiber clothing allows one to experience the beauty of natural freshness while showcasing fashion taste and environmental consciousness, jointly moving towards a low-carbon, sustainable future.",
         "features": [
           "Naturally antibacterial and hypoallergenic",
           "Outstanding breathability and thermal regulation",
@@ -530,18 +530,18 @@
     },
     "materials": {
       "title": "Our Eco-Friendly Materials",
-      "intro": "Discover the sustainable materials that make our textiles eco-friendly and high-performance.",
+      "intro": "Discover the sustainable materials that make our textiles environmentally friendly and high-performing.",
       "organicCotton": {
         "title": "Organic Cotton",
-        "content": "Grown without harmful pesticides or synthetic fertilizers, our organic cotton is GOTS certified and sourced from responsible farms in Thailand and neighboring countries."
+        "content": "GREENLEAF adheres to green environmental protection principles, carefully cultivating organic cotton in the unique ecological fields of Northern Thailand. All raw materials reject chemical pesticides and fertilizers, relying only on natural sunlight, rain, and organic compost, ensuring each cotton fiber retains nature's pure and gentle essence."
       },
       "recycledPolyester": {
         "title": "Recycled Polyester",
-        "content": "Made from post-consumer plastic bottles, our recycled polyester helps reduce waste while offering durable and versatile fabric options."
+        "content": "GREENLEAF utilizes cutting-edge eco-friendly technology to efficiently transform waste plastic into high-quality recycled polyester fibers, injecting new green vitality into the textile industry. Carefully selected materials undergo rigorous purification, modification, and refined processing, resulting in recycled polyester fibers that maintain excellent wear resistance and elasticity while displaying vibrant and lasting colors."
       },
       "bamboo": {
         "title": "Bamboo Fabric",
-        "content": "Using fast-growing bamboo from sustainable sources, our bamboo fabric offers natural antibacterial properties and exceptional softness, perfect for Thailand's tropical climate."
+        "content": "GREENLEAF leverages Northern Thailand's rich natural resources and green wisdom, carefully selecting bamboo from natural forests and transforming it into high-quality bamboo fiber fabric through advanced technology. This fabric fully retains bamboo's natural antibacterial, breathable, temperature-regulating, and smooth properties, while significantly reducing water consumption and chemical additives through eco-friendly processing."
       },
       "hemp": {
         "title": "Hemp Textiles",
